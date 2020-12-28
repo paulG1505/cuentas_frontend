@@ -1,0 +1,43 @@
+{
+	"CNTAS": [
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_FILTROCNI_431",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTEKF_166",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI6988_bli_consulta_cliente",
+			"nameBli": "BLI_consulta_cliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CUENTAEUK_224",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI8533_bli_insertar_c_ahorros",
+			"nameBli": "BLI_insertar_c_ahorros"
+		}
+	]
+}

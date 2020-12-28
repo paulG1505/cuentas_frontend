@@ -1,0 +1,121 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_FILTROCNI_431",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "Cuentas"
+			},
+			"name": "FiltroCliente"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "S"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "25160"
+		},
+		{
+			"attributeId": "AT68_CEDULABO431",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_FILTROCNI_431",
+			"format": "",
+			"name": "@i_cedula",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_consulta_cliente",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI6988_bli_consulta_cliente",
+	"patternName": "BLI_consulta_cliente",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "6ade5488-79cb-4b94-a289-ab370e94ebf5",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 2,
+			"queryName": "SELECT"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "6ade5488-79cb-4b94-a289-ab370e94ebf5",
+			"columns": [
+				{
+					"attributeId": "AT23_CODIGOWY166",
+					"entityId": "EN_CLIENTEKF_166",
+					"format": "",
+					"name": "codigo",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT45_NOMBREDQ166",
+					"entityId": "EN_CLIENTEKF_166",
+					"format": "",
+					"name": "nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT46_APELLIDO166",
+					"entityId": "EN_CLIENTEKF_166",
+					"format": "",
+					"name": "apellido",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT73_CEDULAFM166",
+					"entityId": "EN_CLIENTEKF_166",
+					"format": "",
+					"name": "cedula",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_CLIENTEKF_166",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "Cuentas"
+			},
+			"name": "Cliente"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_cliente_taller",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

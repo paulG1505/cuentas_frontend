@@ -1,0 +1,59 @@
+<!-- Designer Generator v 7.2.0 - SPR 2020-20 08/10/2020 -->
+<html>
+ <head></head>
+ <body>
+  <div id="bc_VC_CLIENTEVFG_470834" class="cb-breadcrumb" ng-if="!vc.isModal(this) && !vc.isDetailGrid(this) && !isDesignerInclude" ng-class="vc.viewState.VC_CLIENTEVFG_470834.style"> 
+   <ol class="breadcrumb"> 
+    <li>Inicio</li> 
+    <li ng-repeat="breadcrumb in breadcrumbs.get() track by breadcrumb.path" ng-class="{ active: !$last }"> {{ breadcrumb.label | translate }} </li> 
+   </ol> 
+  </div> 
+  <!-- Inicio item VW_CLIENTEGQT_977--> 
+  <div id="VC_CLIENTEVFG_470834" ng-keydown="vc.viewState.keyDown($event)" class=" cb-view-container-root cb-view-container cb-group-layout" ng-class="{'container':!vc.isModal(this) && !vc.isDetailGrid(this) && !isDesignerInclude && true, 'container-fluid':vc.isModal(this) || isDesignerInclude || false, 'cb-invisible': !vc.loaded}"> 
+   <div id="G_CLIENTEPOE_937977" ng-show="vc.viewState.G_CLIENTEPOE_937977.visible" ng-class="vc.viewState.G_CLIENTEPOE_937977.style" class="cb-group cb-group-simple"> 
+    <div kendo-validator="G_CLIENTEPOE_937977" k-options="validatorOptions" id="G_CLIENTEPOE_937977_VAL"> 
+     <div class="form-vertical"> 
+      <div class="row"> 
+       <div class="col-xs-4" ng-show="vc.viewState.VA_1JXEFLTENRGVAZN_652977.visible"> 
+        <div class="form-group" id="VA_1JXEFLTENRGVAZN_652977_DIV"> 
+         <label for="VA_1JXEFLTENRGVAZN_652977" title="{{vc.viewState.VA_1JXEFLTENRGVAZN_652977.label|translate:vc.viewState.VA_1JXEFLTENRGVAZN_652977.labelArgs}}" ng-show="vc.viewState.VA_1JXEFLTENRGVAZN_652977.visible" class="control-label">{{vc.viewState.VA_1JXEFLTENRGVAZN_652977.label|translate:vc.viewState.VA_1JXEFLTENRGVAZN_652977.labelArgs}}</label> 
+         <div class="cb-control"> 
+          <input id="VA_1JXEFLTENRGVAZN_652977" name="FiltroCliente_cedula" type="text" class="form-control" maxlength="10" ng-model="vc.model.FiltroCliente.cedula" ng-disabled="vc.viewState.VA_1JXEFLTENRGVAZN_652977.disabled || vc.viewState.VA_1JXEFLTENRGVAZN_652977.disabledingroup" ng-show="vc.viewState.VA_1JXEFLTENRGVAZN_652977.visible" ng-readonly="vc.viewState.VA_1JXEFLTENRGVAZN_652977.readonly" ng-class="vc.viewState.VA_1JXEFLTENRGVAZN_652977.style" data-cobis-group="Group,G_CLIENTEPOE_937977,0" ng-model-onblur data-validation-code="{{vc.viewState.VA_1JXEFLTENRGVAZN_652977.validationCode}}" /> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xs-4" ng-show="vc.viewState.VA_VAIMAGEBUTTONNN_242977.visible"> 
+        <div class="form-group"> 
+         <label class="control-label">{{'&nbsp;'}}</label> 
+         <div class="cb-control"> 
+          <button id="VA_VAIMAGEBUTTONNN_242977" class="btn btn-default btn-block" ng-click="vc.executeCommand('VA_VAIMAGEBUTTONNN_242977','',validator,false, false,'', false)" ng-disabled="vc.viewState.VA_VAIMAGEBUTTONNN_242977.disabled || vc.viewState.VA_VAIMAGEBUTTONNN_242977.disabledingroup" ng-show="vc.viewState.VA_VAIMAGEBUTTONNN_242977.visible" ng-class="vc.viewState.VA_VAIMAGEBUTTONNN_242977.style"> <span ng-class="vc.viewState.VA_VAIMAGEBUTTONNN_242977.imageId"></span> </button> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="G_CLIENTETYG_624977" ng-show="vc.viewState.G_CLIENTETYG_624977.visible" ng-class="vc.viewState.G_CLIENTETYG_624977.style" class="cb-group cb-group-simple"> 
+    <div kendo-validator="G_CLIENTETYG_624977" k-options="validatorOptions" id="G_CLIENTETYG_624977_VAL"> 
+     <div id="QV_YJ32_MTA13" kendo-ext-grid="grids.QV_YJ32_MTA13" k-data-source="vc.model.Cliente" k-column-menu="false" k-sortable="false" k-editable="vc.grids.QV_YJ32_MTA13.editable" k-resizable="false" k-groupable="false" k-reorderable="false" k-filterable="false" k-scrollable="false" k-selectable="false" k-data-bound="vc.grids.QV_YJ32_MTA13.events.dataBound" k-columns="vc.grids.QV_YJ32_MTA13.columns" k-cancel="vc.grids.QV_YJ32_MTA13.events.cancel" k-edit="vc.grids.QV_YJ32_MTA13.events.edit" ng-class="vc.viewState.QV_YJ32_MTA13.style" k-ng-delay="vc.afterInitData"></div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- Fin item VW_CLIENTEGQT_977--> 
+  <div class="cb-view-loading cb-view-loading-preload"> 
+   <div class="cb-view-loading-icon"></div> 
+  </div> 
+  <div class="cb-navbar cb-navbar-bottom" ng-if="!vc.childVc || !vc.autoSyncNavigation"> 
+   <nav ng-class="vc.getCssClass('',['navbar', 'navbar-default'] ,{'navbar-fixed-bottom': (!vc.isModal(this) && !vc.isDetailGrid(this))})"> 
+    <button id="CM_TCNTASJJ_APN" ng-click="vc.CRUDExecute('CM_TCNTASJJ_APN', validator, false, false, 'VC_CLIENTEVFG_470834', false, false)" class="btn btn-primary navbar-btn" ng-disabled="vc.viewState.CM_TCNTASJJ_APN.disabled || vc.viewState.CM_TCNTASJJ_APN.disabledingroup" ng-show="vc.viewState.CM_TCNTASJJ_APN.visible" ng-class="vc.viewState.CM_TCNTASJJ_APN.style"> {{vc.viewState.CM_TCNTASJJ_APN.label|translate}} </button> 
+   </nav> 
+  </div> 
+  <div class="cb-navbar cb-navbar-bottom" ng-if="vc.childVc && vc.autoSyncNavigation"> 
+   <nav ng-class="vc.getCssClass('',['navbar', 'navbar-default'] ,{'navbar-fixed-bottom': (!vc.isModal(this) && !vc.isDetailGrid(this))})"> 
+    <button id="T_CNTASJJPLZAZE_834_ACCEPT" class="btn btn-primary navbar-btn" ng-click="vc.accept(validator, $event, false, 'VC_CLIENTEVFG_470834')" ng-disabled="vc.viewState.T_CNTASJJPLZAZE_834_ACCEPT.disabled || vc.viewState.T_CNTASJJPLZAZE_834_ACCEPT.disabledingroup" ng-show="vc.viewState.T_CNTASJJPLZAZE_834_ACCEPT.visible" ng-class="vc.viewState.T_CNTASJJPLZAZE_834_ACCEPT.style">{{'DSGNR.SYS_DSGNR_LBLACEPT0_00007'|translate}}</button> 
+    <button id="T_CNTASJJPLZAZE_834_CANCEL" class="btn btn-default navbar-btn" ng-click="vc.cancel(validator, $event)" ng-disabled="vc.viewState.T_CNTASJJPLZAZE_834_CANCEL.disabled || vc.viewState.T_CNTASJJPLZAZE_834_CANCEL.disabledingroup" ng-show="vc.viewState.T_CNTASJJPLZAZE_834_CANCEL.visible" ng-class="vc.viewState.T_CNTASJJPLZAZE_834_CANCEL.style">{{'DSGNR.SYS_DSGNR_LBLCANCEL_00006'|translate}}</button> 
+   </nav> 
+  </div>
+ </body>
+</html>
