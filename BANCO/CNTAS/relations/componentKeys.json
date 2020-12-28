@@ -1,0 +1,32 @@
+{
+	"ADMIN": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_CNTASHLWLUDIX_727": {
+				"name": "CreateAccount"
+			},
+			"T_CNTASJJPLZAZE_834": {
+				"name": "FormCliente"
+			}
+		},
+		"Queries": {
+			"Q_CLIENETT_YU32": {
+				"name": "ClienteQuery"
+			}
+		},
+		"SubForms": {
+		}
+	},
+	"Entities": {
+		"EN_CLIENTEKF_166": {
+			"name": "Cliente"
+		},
+		"EN_CUENTAEUK_224": {
+			"name": "Cuenta"
+		},
+		"EN_FILTROCNI_431": {
+			"name": "FiltroCliente"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "CM_TCNTASHL_UHH",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "",
+		"eventsType": "commandEventType"
+	}
+]
