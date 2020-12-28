@@ -4,6 +4,23 @@
 			"entities": {
 				"inputEntity": [
 					{
+						"entityId": "EN_CUENTAEUK_224",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI5339_bli_insertar_c_corriente",
+			"nameBli": "BLI_insertar_c_corriente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
 						"entityId": "EN_FILTROCNI_431",
 						"moduleId": "CNTAS",
 						"related": false

@@ -5,7 +5,15 @@
 		"forms": {
 			"CNTAS": [
 				{
-					"generated": 4,
+					"generated": 0,
+					"moduleId": "CNTAS",
+					"name": "CreateAccount",
+					"subModuleId": "ADMIN",
+					"taskId": "T_CNTASHLWLUDIX_727",
+					"type": "Simple form"
+				},
+				{
+					"generated": 2,
 					"moduleId": "CNTAS",
 					"name": "FormCliente",
 					"subModuleId": "ADMIN",

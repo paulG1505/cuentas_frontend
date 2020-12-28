@@ -31,7 +31,7 @@
 			"format": "",
 			"name": "@t_trn",
 			"type": "CONSTANT",
-			"value": "2598"
+			"value": "2465"
 		},
 		{
 			"attributeId": "AT98_NUMEROUE224",
@@ -57,8 +57,8 @@
 		},
 		{
 			"attributeId": "AT25_SALDOIAN224",
-			"bddType": "varchar",
-			"dataType": "VARCHAR",
+			"bddType": "float",
+			"dataType": "DOUBLE",
 			"direction": "in",
 			"entityId": "EN_CUENTAEUK_224",
 			"format": "",
@@ -67,13 +67,13 @@
 			"value": ""
 		}
 	],
-	"name": "BLI_insertar_c_ahorros",
+	"name": "BLI_insertar_c_corriente",
 	"outputEntity": [
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI8533_bli_insertar_c_ahorros",
-	"patternName": "BLI_insertar_c_ahorros",
+	"patternId": "BLI5339_bli_insertar_c_corriente",
+	"patternName": "BLI_insertar_c_corriente",
 	"patternType": "Bli",
 	"queries": [
 	],
@@ -82,7 +82,7 @@
 	"returnEntity": [
 	],
 	"serverName": "CENTRAL",
-	"serviceID": "cobis.g4_sp_cuenta_ahorros",
+	"serviceID": "cobis.g4_sp_cuenta_corriente",
 	"type": "SP",
 	"typeMapping": "MAPJava"
 }

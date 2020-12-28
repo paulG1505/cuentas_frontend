@@ -3,6 +3,9 @@
 		"CompositeForms": {
 		},
 		"Forms": {
+			"T_CNTASHLWLUDIX_727": {
+				"name": "CreateAccount"
+			},
 			"T_CNTASJJPLZAZE_834": {
 				"name": "FormCliente"
 			}
