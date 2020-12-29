@@ -9,8 +9,7 @@
 						"related": false
 					}
 				],
-				"outputEntity": [
-				],
+				"outputEntity": [],
 				"returnEntity": [
 					{
 						"entityId": "EN_BUSQUEDAC_539",
@@ -21,8 +20,9 @@
 			},
 			"idBli": "BLI4348_bli_consulta_retiro",
 			"nameBli": "BLI_Consulta_Retiro"
-		},	
-"entities": {
+		},
+		{
+			"entities": {
 				"inputEntity": [
 					{
 						"entityId": "EN_FILTROCUA_619",
@@ -30,8 +30,7 @@
 						"related": false
 					}
 				],
-				"outputEntity": [
-				],
+				"outputEntity": [],
 				"returnEntity": [
 					{
 						"entityId": "EN_CLIENTEAU_514",
@@ -52,8 +51,7 @@
 						"related": false
 					}
 				],
-				"outputEntity": [
-				],
+				"outputEntity": [],
 				"returnEntity": [
 					{
 						"entityId": "EN_CLIENTEKF_166",
@@ -74,10 +72,8 @@
 						"related": false
 					}
 				],
-				"outputEntity": [
-				],
-				"returnEntity": [
-				]
+				"outputEntity": [],
+				"returnEntity": []
 			},
 			"idBli": "BLI7721_bli_insertar_c_corriente",
 			"nameBli": "BLI_insertar_c_corriente"
@@ -91,10 +87,8 @@
 						"related": false
 					}
 				],
-				"outputEntity": [
-				],
-				"returnEntity": [
-				]
+				"outputEntity": [],
+				"returnEntity": []
 			},
 			"idBli": "BLI8533_bli_insertar_c_ahorros",
 			"nameBli": "BLI_insertar_c_ahorros"
@@ -108,10 +102,8 @@
 						"related": false
 					}
 				],
-				"outputEntity": [
-				],
-				"returnEntity": [
-				]
+				"outputEntity": [],
+				"returnEntity": []
 			},
 			"idBli": "BLI9435_bli_insertar_retiro",
 			"nameBli": "BLI_Insertar_Retiro"

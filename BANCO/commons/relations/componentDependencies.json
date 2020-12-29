@@ -168,17 +168,13 @@
 			"subForms": [
 			]
 		}
-		},
+	},
 	"Queries": {
 		"Q_BUSQAAEL_SG59": {
 			"labels": [
 			]
-	},
-		"Q_CLIENETT_YU32": {
-			"labels": [
-			]
 		},
-"Q_CLIENETT_YU32": {
+		"Q_CLIENETT_YU32": {
 			"labels": [
 			]
 		},

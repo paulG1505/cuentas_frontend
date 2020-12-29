@@ -1,12 +1,12 @@
 {
-		"EN_BUSQUEDAC_539": {
+	"EN_BUSQUEDAC_539": {
 		"queries": {
 			"Q_BUSQAAEL_SG59": {
 				"$ref": "../ADMIN/queries/Q_BUSQAAEL_SG59.json#"
 			}
 		}
 	},
-"EN_CLIENTEAU_514": {
+	"EN_CLIENTEAU_514": {
 		"queries": {
 			"Q_CLIENUNN_VJ99": {
 				"$ref": "../ADMIN/queries/Q_CLIENUNN_VJ99.json#"
@@ -14,7 +14,7 @@
 		}
 	},
 	"EN_CLIENTEKF_166": {
-		"queries": {   
+		"queries": {
 			"Q_CLIENETT_YU32": {
 				"$ref": "../ADMIN/queries/Q_CLIENETT_YU32.json#"
 			}
