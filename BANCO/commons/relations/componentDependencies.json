@@ -1,6 +1,50 @@
 {
-	"Entities": {},
-	"Forms": {},
-	"CompositeForms": {},
-	"Queries": {}
+	"CompositeForms": {
+	},
+	"Entities": {
+		"EN_BUSQUEDAC_539": {
+			"labels": [
+			]
+		}
+	},
+	"Forms": {
+		"T_CNTASGVQQWGCD_328": {
+			"blis": [
+			],
+			"entities": {
+				"EN_BUSQUEDAC_539": [
+					"AT19_SALDONUO539",
+					"AT36_CEDULAET539",
+					"AT38_TIPOCUNA539",
+					"AT41_APELLINI539",
+					"AT46_NOMBRENE539",
+					"AT82_NUMEROCA539",
+					"AT95_SALDODKD539",
+					"AT97_CODCLIEE539"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_APELLIDEI_33748",
+				"LBL_CNTAS_CANTIDARA_31013",
+				"LBL_CNTAS_CEDULACIL_65634",
+				"LBL_CNTAS_CODIGOCET_21378",
+				"LBL_CNTAS_NOMBRECLE_58618",
+				"LBL_CNTAS_NUMEROCAT_57046",
+				"LBL_CNTAS_SALDODVNN_85317",
+				"LBL_CNTAS_TIPOCUENT_58975"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		}
+	},
+	"Queries": {
+	}
 }

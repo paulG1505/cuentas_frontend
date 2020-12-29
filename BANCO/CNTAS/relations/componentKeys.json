@@ -1,0 +1,20 @@
+{
+	"ADMIN": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_CNTASGVQQWGCD_328": {
+				"name": "formRetiros"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
+	},
+	"Entities": {
+		"EN_BUSQUEDAC_539": {
+			"name": "BusquedaCliente"
+		}
+	}
+}
