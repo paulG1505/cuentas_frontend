@@ -214,7 +214,7 @@
 						"queryView": {
 							"actionDesign": "Button",
 							"actions": [
-								"Create,Update,Delete"
+								"Update"
 							],
 							"allowPaging": false,
 							"allowPagingStr": "F",
@@ -229,8 +229,8 @@
 							"customizationLayer": 0,
 							"customizationLayerDescription": "ECU",
 							"customUrlDialog": null,
-							"deleteCommandEnabled": true,
-							"deleteCommandEnabledStr": "T",
+							"deleteCommandEnabled": false,
+							"deleteCommandEnabledStr": "F",
 							"dialogTitleLabelId": "LBL_CNTAS_CREARCUAA_86369",
 							"editCommandEnabled": true,
 							"editCommandEnabledStr": "T",
@@ -247,13 +247,13 @@
 								"AT46_APELLIDO166",
 								"AT73_CEDULAFM166"
 							],
-							"insertCommandEnabled": true,
-							"insertCommandEnabledStr": "T",
+							"insertCommandEnabled": false,
+							"insertCommandEnabledStr": "F",
 							"isCustomized": false,
 							"modalSize": "md",
-							"modeSelection": "None",
+							"modeSelection": "Simple",
 							"moduleIdDialog": "CNTAS",
-							"multiSelectEnabledStr": "F",
+							"multiSelectEnabledStr": "S",
 							"name": "QV_BV32_OZJ75",
 							"options": 0,
 							"pageSize": null,
@@ -263,6 +263,39 @@
 							"queryId": "Q_CLIENETT_YU32",
 							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
+								{
+									"action": null,
+									"commandImageId": null,
+									"commandName": "RowSelecting",
+									"commandOrder": null,
+									"commandType": 0,
+									"customActionId": "CEQV_208QV_BV32_OZJ75_535",
+									"customizationLayer": 0,
+									"customizationLayerDescription": "ECU",
+									"enabled": "T",
+									"eventActions": [
+									],
+									"executionType": 1,
+									"filter": null,
+									"isCustomized": false,
+									"name": "RowSelecting",
+									"options": 0,
+									"queryView": "QV_BV32_OZJ75",
+									"queryViewEventType": {
+										"availableExecutionType": 7,
+										"description": "Se ejecuta antes de que los datos modificados en una grilla sean comprometidos.",
+										"eventId": 208,
+										"name": "RowSelecting"
+									},
+									"serviceName": null,
+									"userControl": {
+										"customizationLayer": "0",
+										"customizationLayerDescription": "ECU",
+										"description": "Designer Button",
+										"type": "A",
+										"userControlId": "Button"
+									}
+								}
 							],
 							"queryViewId": "QV_BV32_OZJ75",
 							"queryViewType": "Grid",

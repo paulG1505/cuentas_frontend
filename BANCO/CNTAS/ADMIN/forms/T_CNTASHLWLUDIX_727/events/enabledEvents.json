@@ -7,10 +7,38 @@
 		"customEvents": [
 			{
 				"eventName": "executeCommand",
-				"executionType": 7
+				"executionType": 3
 			}
 		],
 		"entityName": "",
 		"eventsType": "commandEventType"
+	},
+	{
+		"attributeName": "cliente",
+		"controlId": "VA_CLIENTEJECXSTME_452419",
+		"controlName": "cliente",
+		"controlType": "TextInputBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_CREATEACNT_470727",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "initData",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]

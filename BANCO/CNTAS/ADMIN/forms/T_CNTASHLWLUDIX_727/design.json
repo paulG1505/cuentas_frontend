@@ -28,15 +28,9 @@
 							],
 							"actionId": "CUSTOM",
 							"actionType": "CUSTOM"
-						},
-						{
-							"actionArgs": [
-							],
-							"actionId": "BLI5339_bli_insertar_c_corriente",
-							"actionType": "BLI"
 						}
 					],
-					"executionType": 7,
+					"executionType": 3,
 					"filter": null,
 					"isEnabled": true
 				}
@@ -98,6 +92,23 @@
 			"columnsNum": 1,
 			"componentStyle": null,
 			"customEvents": [
+				{
+					"customEventId": "CEVC_002T_CNTASHLWLUDIX_727_844",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+					],
+					"executionType": 1,
+					"filter": null,
+					"isEnabled": true,
+					"viewContainerEventType": {
+						"availableExecutionType": 7,
+						"description": "Inicializaci\u00f3n de datos de un ViewContainer, despues de este evento se realiza el segimiento de cambios en los datos",
+						"eventId": 2,
+						"name": "InitData"
+					}
+				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
@@ -150,11 +161,36 @@
 									"$ref": "../../../../CNTAS/entities/EN_CUENTAEUK_224.json#/attributes/AT26_CLIENTEE224"
 								},
 								"attributeValidations": [
+									{
+										"compareOperator": 1,
+										"id": "VV_CLIENTEJECXSTME_45241924",
+										"visualValidationType": {
+											"description": "Letters and Numbers, only Numbers, custom list, custom function, lock",
+											"visualValidationId": "InputRestriction"
+										}
+									}
 								],
 								"colSpan": 1,
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
+									{
+										"customEventId": "CEVA_104VA_CLIENTEJECXSTME_452419_711",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Se ejecuta al cambiar el valor de un VisualAttribute",
+											"eventId": 104,
+											"name": "Changed"
+										}
+									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
@@ -192,54 +228,34 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_CUENTAEUK_224.json#/attributes/AT98_NUMEROUE224"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": false,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"format": "",
-								"include": 4095,
-								"isCustomized": false,
-								"label": {
-									"defaultValue": {
-										"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_NUMEROCTE_80680"
-									},
-									"labelId": "LBL_CNTAS_NUMEROCTE_80680",
-									"moduleId": "CNTAS"
-								},
-								"maxRecords": null,
-								"name": "numeroCuenta",
-								"options": 0,
-								"order": 4,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_NUMEROCUENTAXXS_379419",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
 									"$ref": "../../../../CNTAS/entities/EN_CUENTAEUK_224.json#/attributes/AT25_SALDOIAN224"
 								},
 								"attributeValidations": [
+									{
+										"compareOperator": -1,
+										"id": "VV_SALDOERYUGLBDTW_43841986",
+										"maxValue": "200",
+										"minValue": "50",
+										"validateMessageLabel": {
+											"defaultValue": {
+												"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/MSG/MSG_CNTAS_VALORFUGA_34899"
+											},
+											"labelId": "MSG_CNTAS_VALORFUGA_34899",
+											"moduleId": "CNTAS"
+										},
+										"visualValidationType": {
+											"description": "RangeValues Validation",
+											"visualValidationId": "RangeValues"
+										}
+									},
+									{
+										"compareOperator": 1,
+										"id": "VV_SALDOERYUGLBDTW_43841967",
+										"visualValidationType": {
+											"description": "Letters and Numbers, only Numbers, custom list, custom function, lock",
+											"visualValidationId": "InputRestriction"
+										}
+									}
 								],
 								"colSpan": 1,
 								"componentInGrid": false,

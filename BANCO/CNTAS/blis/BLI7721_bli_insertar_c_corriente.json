@@ -34,17 +34,6 @@
 			"value": "2465"
 		},
 		{
-			"attributeId": "AT98_NUMEROUE224",
-			"bddType": "varchar",
-			"dataType": "VARCHAR",
-			"direction": "in",
-			"entityId": "EN_CUENTAEUK_224",
-			"format": "",
-			"name": "@i_banco",
-			"type": "ATTRIBUTE",
-			"value": ""
-		},
-		{
 			"attributeId": "AT26_CLIENTEE224",
 			"bddType": "varchar",
 			"dataType": "VARCHAR",
@@ -72,7 +61,7 @@
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI5339_bli_insertar_c_corriente",
+	"patternId": "BLI7721_bli_insertar_c_corriente",
 	"patternName": "BLI_insertar_c_corriente",
 	"patternType": "Bli",
 	"queries": [
@@ -82,7 +71,7 @@
 	"returnEntity": [
 	],
 	"serverName": "CENTRAL",
-	"serviceID": "cobis.g4_sp_cuenta_corriente",
+	"serviceID": "cobis.g4_sp_c_c",
 	"type": "SP",
 	"typeMapping": "MAPJava"
 }

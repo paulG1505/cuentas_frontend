@@ -13,7 +13,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 0,
 					"moduleId": "CNTAS",
 					"name": "FormCliente",
 					"subModuleId": "ADMIN",
