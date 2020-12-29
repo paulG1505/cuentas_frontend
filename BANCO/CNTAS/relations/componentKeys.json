@@ -3,14 +3,14 @@
 		"CompositeForms": {
 		},
 		"Forms": {
+			"T_CNTASGVQQWGCD_328": {
+				"name": "formRetiros"
+			},
 			"T_CNTASHLWLUDIX_727": {
 				"name": "CreateAccount"
 			},
 			"T_CNTASJJPLZAZE_834": {
 				"name": "FormCliente"
-			},
-	"T_CNTASGVQQWGCD_328": {
-				"name": "formRetiros"
 			}
 		},
 		"Queries": {
@@ -22,6 +22,9 @@
 		}
 	},
 	"Entities": {
+		"EN_BUSQUEDAC_539": {
+			"name": "BusquedaCliente"
+		},
 		"EN_CLIENTEKF_166": {
 			"name": "Cliente"
 		},
@@ -30,9 +33,6 @@
 		},
 		"EN_FILTROCNI_431": {
 			"name": "FiltroCliente"
-		},
-                "EN_BUSQUEDAC_539": {
-			"name": "BusquedaCliente"
 		}
 	}
 }
