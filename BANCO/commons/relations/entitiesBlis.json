@@ -21,6 +21,27 @@
 			},
 			"idBli": "BLI4348_bli_consulta_retiro",
 			"nameBli": "BLI_Consulta_Retiro"
+		},	
+"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_FILTROCUA_619",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTEAU_514",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI3128_bli_getclientecuenta",
+			"nameBli": "BLI_getClienteCuenta"
 		},
 		{
 			"entities": {

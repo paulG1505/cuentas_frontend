@@ -6,6 +6,10 @@
 			"labels": [
 			]
 		},
+		"EN_CLIENTEAU_514": {
+			"labels": [
+			]
+		},
 		"EN_CLIENTEKF_166": {
 			"labels": [
 			]
@@ -17,9 +21,52 @@
 		"EN_FILTROCNI_431": {
 			"labels": [
 			]
+		},
+		"EN_FILTROCUA_619": {
+			"labels": [
+			]
 		}
 	},
 	"Forms": {
+		"T_CNTASDGXVJPQN_908": {
+			"blis": [
+				"BLI3128_bli_getclientecuenta"
+			],
+			"entities": {
+				"EN_CLIENTEAU_514": [
+					"AT10_SALDOPTH514",
+					"AT45_BANCOGAV514",
+					"AT80_TIPOCUEE514",
+					"AT81_CEDULAZR514",
+					"AT90_APELLIOO514",
+					"AT96_NOMBRETT514"
+				],
+				"EN_FILTROCUA_619": [
+					"AT66_CUENTAWQ619"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_NUMEROCAT_57046"
+			],
+			"queries": {
+				"Q_CLIENUNN_VJ99": [
+					"QM_CLIEN9JNUV929_06",
+					"QM_CLIENJV99N836_02",
+					"QM_CLIENNN9NU437_05",
+					"QM_CLIENNNN99953_04",
+					"QM_CLIENU99U9311_03",
+					"QM_CLIENVVNUV974_01"
+				]
+			},
+			"subForms": [
+			]
+		},
 		"T_CNTASGVQQWGCD_328": {
 			"blis": [
 				"BLI4348_bli_consulta_retiro"
@@ -121,13 +168,25 @@
 			"subForms": [
 			]
 		}
-	},
+		},
 	"Queries": {
 		"Q_BUSQAAEL_SG59": {
 			"labels": [
 			]
-		},
+	},
 		"Q_CLIENETT_YU32": {
+			"labels": [
+			]
+		},
+"Q_CLIENETT_YU32": {
+			"labels": [
+			]
+		},
+		"Q_CLIENUNN_VJ99": {
+			"labels": [
+			]
+		},
+		"Q_CUENAATA_PX47": {
 			"labels": [
 			]
 		}

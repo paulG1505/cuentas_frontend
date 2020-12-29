@@ -14,6 +14,7 @@
 		"LBL_CNTAS_SALDODVNN_85317": "Saldo",
 		"LBL_CNTAS_SALDOVUNY_31139": "Saldo",
 		"LBL_CNTAS_TIPOCUEAA_92688": "Tipo de Cuenta",
+		"LBL_CNTAS_TIPOCUENT_29510": "Tipo Cuenta",
 		"LBL_CNTAS_TIPOCUENT_58975": "Tipo de Cuenta",
 		"MSG_CNTAS_RANGOSANO_16064": "Rango de saldo no permitido",
 		"MSG_CNTAS_VALORFUGA_34899": "Valor fuera de rango"
