@@ -1,0 +1,145 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_BUSQUEDAC_539",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "Cuentas"
+			},
+			"name": "BusquedaCliente"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "Q"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "2599"
+		},
+		{
+			"attributeId": "AT82_NUMEROCA539",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_BUSQUEDAC_539",
+			"format": "",
+			"name": "@i_numero_cuenta",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_Consulta_Retiro",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI4348_bli_consulta_retiro",
+	"patternName": "BLI_Consulta_Retiro",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "2a69df40-2bde-42e2-9566-8c552429ab8e",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": true,
+			"numberQuery": 3,
+			"queryName": "SELECT"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "2a69df40-2bde-42e2-9566-8c552429ab8e",
+			"columns": [
+				{
+					"attributeId": "AT82_NUMEROCA539",
+					"entityId": "EN_BUSQUEDAC_539",
+					"format": "",
+					"name": "{0}",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT97_CODCLIEE539",
+					"entityId": "EN_BUSQUEDAC_539",
+					"format": "",
+					"name": "{1}",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT95_SALDODKD539",
+					"entityId": "EN_BUSQUEDAC_539",
+					"format": "",
+					"name": "{2}",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT36_CEDULAET539",
+					"entityId": "EN_BUSQUEDAC_539",
+					"format": "",
+					"name": "{3}",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT46_NOMBRENE539",
+					"entityId": "EN_BUSQUEDAC_539",
+					"format": "",
+					"name": "{4}",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT41_APELLINI539",
+					"entityId": "EN_BUSQUEDAC_539",
+					"format": "",
+					"name": "{5}",
+					"position": 6,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT38_TIPOCUNA539",
+					"entityId": "EN_BUSQUEDAC_539",
+					"format": "",
+					"name": "tipo_cuenta",
+					"position": 7,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": true
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_BUSQUEDAC_539",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "Cuentas"
+			},
+			"name": "BusquedaCliente"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g4_sp_operaciones",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}
