@@ -14,6 +14,9 @@
 			}
 		},
 		"Queries": {
+			"Q_BUSQAAEL_SG59": {
+				"name": "BusquedaClienteQuery"
+			},
 			"Q_CLIENETT_YU32": {
 				"name": "ClienteQuery"
 			}

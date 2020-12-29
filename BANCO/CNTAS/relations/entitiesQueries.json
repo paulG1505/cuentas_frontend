@@ -1,4 +1,11 @@
 {
+	"EN_BUSQUEDAC_539": {
+		"queries": {
+			"Q_BUSQAAEL_SG59": {
+				"$ref": "../ADMIN/queries/Q_BUSQAAEL_SG59.json#"
+			}
+		}
+	},
 	"EN_CLIENTEKF_166": {
 		"queries": {
 			"Q_CLIENETT_YU32": {

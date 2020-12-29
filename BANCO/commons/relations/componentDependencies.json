@@ -22,6 +22,7 @@
 	"Forms": {
 		"T_CNTASGVQQWGCD_328": {
 			"blis": [
+				"BLI4348_bli_consulta_retiro"
 			],
 			"entities": {
 				"EN_BUSQUEDAC_539": [
@@ -48,6 +49,7 @@
 				"LBL_CNTAS_CODIGOCET_21378",
 				"LBL_CNTAS_NOMBRECLE_58618",
 				"LBL_CNTAS_NUMEROCAT_57046",
+				"LBL_CNTAS_RETIRARJI_72708",
 				"LBL_CNTAS_SALDODVNN_85317",
 				"LBL_CNTAS_TIPOCUENT_58975"
 			],
@@ -121,6 +123,10 @@
 		}
 	},
 	"Queries": {
+		"Q_BUSQAAEL_SG59": {
+			"labels": [
+			]
+		},
 		"Q_CLIENETT_YU32": {
 			"labels": [
 			]

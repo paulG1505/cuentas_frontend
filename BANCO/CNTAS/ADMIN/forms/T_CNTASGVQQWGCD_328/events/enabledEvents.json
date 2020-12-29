@@ -1,2 +1,30 @@
 [
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONCBQVSQM_606860",
+		"controlName": "VA_VABUTTONCBQVSQM_606860",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "BusquedaCliente",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONROHFQQZ_817860",
+		"controlName": "VA_VABUTTONROHFQQZ_817860",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "BusquedaCliente",
+		"eventsType": "visualAttributeEventType"
+	}
 ]

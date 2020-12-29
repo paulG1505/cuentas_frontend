@@ -4,6 +4,28 @@
 			"entities": {
 				"inputEntity": [
 					{
+						"entityId": "EN_BUSQUEDAC_539",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_BUSQUEDAC_539",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI4348_bli_consulta_retiro",
+			"nameBli": "BLI_Consulta_Retiro"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
 						"entityId": "EN_FILTROCNI_431",
 						"moduleId": "CNTAS",
 						"related": false
@@ -55,6 +77,23 @@
 			},
 			"idBli": "BLI8533_bli_insertar_c_ahorros",
 			"nameBli": "BLI_insertar_c_ahorros"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_BUSQUEDAC_539",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI9435_bli_insertar_retiro",
+			"nameBli": "BLI_Insertar_Retiro"
 		}
 	]
 }

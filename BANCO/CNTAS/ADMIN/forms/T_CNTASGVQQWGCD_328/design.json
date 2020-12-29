@@ -287,7 +287,7 @@
 								"maxRecords": null,
 								"name": "saldo",
 								"options": 0,
-								"order": 5,
+								"order": 6,
 								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
@@ -300,6 +300,103 @@
 								},
 								"visible": 4095,
 								"visualAttributeId": "VA_SALDOKDFKDYTGUJ_536860",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../CNTAS/entities/EN_BUSQUEDAC_539.json#/attributes/AT38_TIPOCUNA539"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_TIPOCUENT_58975"
+									},
+									"labelId": "LBL_CNTAS_TIPOCUENT_58975",
+									"moduleId": "CNTAS"
+								},
+								"maxRecords": null,
+								"name": "tipoCuenta",
+								"options": 0,
+								"order": 5,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TIPOCUENTAMMNWY_930860",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					},
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 1,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"eventType": 0,
+						"groupId": "G_RETIROSVHN_233860",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1195",
+						"order": 4,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "VA_VASEPARATORQYNY_266860",
+								"options": 0,
+								"order": 1,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"userControlId": "Separator"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VASEPARATORQYNY_266860",
 								"width": null,
 								"widthComposite": "D"
 							}
@@ -378,57 +475,42 @@
 							{
 								"aggregate": null,
 								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_BUSQUEDAC_539.json#/attributes/AT38_TIPOCUNA539"
-								},
 								"attributeValidations": [
 								],
 								"colSpan": 1,
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"format": "",
-								"include": 4095,
-								"isCustomized": false,
-								"label": {
-									"defaultValue": {
-										"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_TIPOCUENT_58975"
-									},
-									"labelId": "LBL_CNTAS_TIPOCUENT_58975",
-									"moduleId": "CNTAS"
-								},
-								"maxRecords": null,
-								"name": "tipoCuenta",
-								"options": 0,
-								"order": 2,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_TIPOCUENTAMMNWY_930860",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": false,
-								"componentStyle": null,
-								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VABUTTONCBQVSQM_606860_246",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											},
+											{
+												"actionArgs": [
+												],
+												"actionId": "BLI4348_bli_consulta_retiro",
+												"actionType": "BLI",
+												"controlId": "VA_VABUTTONCBQVSQM_606860"
+											}
+										],
+										"executionType": 7,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
@@ -440,7 +522,8 @@
 								"maxRecords": null,
 								"name": "VA_VABUTTONCBQVSQM_606860",
 								"options": 0,
-								"order": 3,
+								"order": 2,
+								"queryId": null,
 								"queryModule": null,
 								"queryVersion": null,
 								"responsiveLayouts": null,
@@ -528,7 +611,7 @@
 						"isCustomized": false,
 						"layoutType": "Group",
 						"name": "Group2857",
-						"order": 4,
+						"order": 5,
 						"orientation": "V",
 						"responsiveLayouts": null,
 						"responsivity": false,
@@ -578,6 +661,71 @@
 								},
 								"visible": 4095,
 								"visualAttributeId": "VA_SALDONUEVOKHCON_198860",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VABUTTONROHFQQZ_817860_371",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											}
+										],
+										"executionType": 7,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_RETIRARJI_72708"
+									},
+									"labelId": "LBL_CNTAS_RETIRARJI_72708",
+									"moduleId": "CNTAS"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONROHFQQZ_817860",
+								"options": 0,
+								"order": 2,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONROHFQQZ_817860",
 								"width": null,
 								"widthComposite": "D"
 							}

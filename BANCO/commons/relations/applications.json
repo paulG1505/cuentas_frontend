@@ -5,26 +5,32 @@
 		"forms": {
 			"CNTAS": [
 				{
-					"generated": 4,
+					"generated": 0,
 					"moduleId": "CNTAS",
+					"moduleName": "Cuentas",
 					"name": "formRetiros",
 					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
 					"taskId": "T_CNTASGVQQWGCD_328",
 					"type": "Simple form"
 				},
 				{
 					"generated": 4,
 					"moduleId": "CNTAS",
+					"moduleName": "Cuentas",
 					"name": "CreateAccount",
 					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
 					"taskId": "T_CNTASHLWLUDIX_727",
 					"type": "Simple form"
 				},
 				{
 					"generated": 4,
 					"moduleId": "CNTAS",
+					"moduleName": "Cuentas",
 					"name": "FormCliente",
 					"subModuleId": "ADMIN",
+					"subModuleName": "ADMIN",
 					"taskId": "T_CNTASJJPLZAZE_834",
 					"type": "Simple form"
 				}
