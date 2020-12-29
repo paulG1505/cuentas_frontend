@@ -1,0 +1,137 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_FILTROCUA_619",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "Cuentas"
+			},
+			"name": "FiltroCuenta"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "Q"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "2599"
+		},
+		{
+			"attributeId": "AT66_CUENTAWQ619",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_FILTROCUA_619",
+			"format": "",
+			"name": "@i_numero_cuenta",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_getClienteCuenta",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI3128_bli_getclientecuenta",
+	"patternName": "BLI_getClienteCuenta",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "8cc4c7a7-32cb-4527-826a-c821aa0917b2",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "SELECT ca_banco,\r\n\t\t\t       ca_saldo,\r\n\t\t\t       cl_cedula,\r\n\t\t\t       cl_nombre,\r\n\t\t\t       cl_apellido,\r\n\t\t\t       \u0027A\u0027 AS tipo_cuenta\r\n\t\t \tFROM"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "8cc4c7a7-32cb-4527-826a-c821aa0917b2",
+			"columns": [
+				{
+					"attributeId": "AT45_BANCOGAV514",
+					"entityId": "EN_CLIENTEAU_514",
+					"format": "",
+					"name": "banco",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT10_SALDOPTH514",
+					"entityId": "EN_CLIENTEAU_514",
+					"format": "",
+					"name": "saldo",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT81_CEDULAZR514",
+					"entityId": "EN_CLIENTEAU_514",
+					"format": "",
+					"name": "cedula",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT96_NOMBRETT514",
+					"entityId": "EN_CLIENTEAU_514",
+					"format": "",
+					"name": "nombre",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT90_APELLIOO514",
+					"entityId": "EN_CLIENTEAU_514",
+					"format": "",
+					"name": "apellido",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT80_TIPOCUEE514",
+					"entityId": "EN_CLIENTEAU_514",
+					"format": "",
+					"name": "tipocuenta",
+					"position": 6,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_CLIENTEAU_514",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "Cuentas"
+			},
+			"name": "ClienteCuenta"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g4_sp_operaciones",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

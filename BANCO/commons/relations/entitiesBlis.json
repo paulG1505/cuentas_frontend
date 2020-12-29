@@ -4,6 +4,28 @@
 			"entities": {
 				"inputEntity": [
 					{
+						"entityId": "EN_FILTROCUA_619",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTEAU_514",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI3128_bli_getclientecuenta",
+			"nameBli": "BLI_getClienteCuenta"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
 						"entityId": "EN_FILTROCNI_431",
 						"moduleId": "CNTAS",
 						"related": false
