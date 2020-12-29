@@ -1,7 +1,15 @@
 {
-	"CNTAS": {
-		"LBL": {
-			"LBL_CNTAS_CEDULADMC_59512": "Cedula",
+    "CNTAS": {
+        "LBL": {
+			"LBL_CNTAS_APELLIDEI_33748": "Apellido Cliente",
+			"LBL_CNTAS_CANTIDARA_31013": "Cantidad a Retirar",
+			"LBL_CNTAS_CEDULACIL_65634": "Cedula Cliente",
+			"LBL_CNTAS_CODIGOCET_21378": "Codigo Cliente",
+			"LBL_CNTAS_NOMBRECLE_58618": "Nombre Cliente",
+			"LBL_CNTAS_NUMEROCAT_57046": "Numero de Cuenta",
+			"LBL_CNTAS_SALDODVNN_85317": "Saldo",
+			"LBL_CNTAS_TIPOCUENT_58975": "Tipo de Cuenta",
+                        "LBL_CNTAS_CEDULADMC_59512": "Cedula",
 			"LBL_CNTAS_CLIENTETD_76249": "Cliente",
 			"LBL_CNTAS_CREARCUAA_86369": "Crear Cuenta",
 			"LBL_CNTAS_GUARDARUL_62499": "Guardar",

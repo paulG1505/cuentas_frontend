@@ -8,6 +8,9 @@
 			},
 			"T_CNTASJJPLZAZE_834": {
 				"name": "FormCliente"
+			},
+	"T_CNTASGVQQWGCD_328": {
+				"name": "formRetiros"
 			}
 		},
 		"Queries": {
@@ -27,6 +30,9 @@
 		},
 		"EN_FILTROCNI_431": {
 			"name": "FiltroCliente"
+		},
+                "EN_BUSQUEDAC_539": {
+			"name": "BusquedaCliente"
 		}
 	}
 }
