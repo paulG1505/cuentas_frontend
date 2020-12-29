@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CUENTAEUK_224",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}

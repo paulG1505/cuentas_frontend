@@ -2,13 +2,90 @@
 	"CompositeForms": {
 	},
 	"Entities": {
-		"EN_BUSQUEDAC_539": {
+		"EN_CLIENTEKF_166": {
+			"labels": [
+			]
+		},
+		"EN_CUENTAEUK_224": {
+			"labels": [
+			]
+		},
+		"EN_FILTROCNI_431": {
+			"labels": [
+			]
+		},
+	"EN_BUSQUEDAC_539": {
 			"labels": [
 			]
 		}
 	},
 	"Forms": {
-		"T_CNTASGVQQWGCD_328": {
+		"T_CNTASHLWLUDIX_727": {
+			"blis": [
+				"BLI5339_bli_insertar_c_corriente"
+			],
+			"entities": {
+				"EN_CUENTAEUK_224": [
+					"AT25_SALDOIAN224",
+					"AT26_CLIENTEE224",
+					"AT59_TIPOHLNW224",
+					"AT98_NUMEROUE224"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_CLIENTETD_76249",
+				"LBL_CNTAS_GUARDARUL_62499",
+				"LBL_CNTAS_NUMEROCTE_80680",
+				"LBL_CNTAS_SALDOVUNY_31139",
+				"LBL_CNTAS_TIPOCUEAA_92688"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_CNTASJJPLZAZE_834": {
+			"blis": [
+				"BLI6988_bli_consulta_cliente"
+			],
+			"entities": {
+				"EN_CLIENTEKF_166": [
+					"AT23_CODIGOWY166",
+					"AT45_NOMBREDQ166",
+					"AT46_APELLIDO166",
+					"AT73_CEDULAFM166"
+				],
+				"EN_FILTROCNI_431": [
+					"AT68_CEDULABO431"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_CEDULADMC_59512"
+			],
+			"queries": {
+				"Q_CLIENETT_YU32": [
+					"QM_CLIEN223UT584_01",
+					"QM_CLIEN3TTTE622_02",
+					"QM_CLIENU22YU450_03",
+					"QM_CLIENU333T458_04"
+				]
+			},
+			"subForms": [
+			]
+		},
+"T_CNTASGVQQWGCD_328": {
 			"blis": [
 			],
 			"entities": {
@@ -46,5 +123,9 @@
 		}
 	},
 	"Queries": {
+		"Q_CLIENETT_YU32": {
+			"labels": [
+			]
+		}
 	}
 }

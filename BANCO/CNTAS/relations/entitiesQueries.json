@@ -1,2 +1,9 @@
 {
+	"EN_CLIENTEKF_166": {
+		"queries": {
+			"Q_CLIENETT_YU32": {
+				"$ref": "../ADMIN/queries/Q_CLIENETT_YU32.json#"
+			}
+		}
+	}
 }
