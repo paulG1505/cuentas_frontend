@@ -18,14 +18,12 @@
 	"Forms": {
 		"T_CNTASHLWLUDIX_727": {
 			"blis": [
-				"BLI5339_bli_insertar_c_corriente"
 			],
 			"entities": {
 				"EN_CUENTAEUK_224": [
 					"AT25_SALDOIAN224",
 					"AT26_CLIENTEE224",
-					"AT59_TIPOHLNW224",
-					"AT98_NUMEROUE224"
+					"AT59_TIPOHLNW224"
 				]
 			},
 			"externalEntities": {
@@ -37,9 +35,9 @@
 			"labels": [
 				"LBL_CNTAS_CLIENTETD_76249",
 				"LBL_CNTAS_GUARDARUL_62499",
-				"LBL_CNTAS_NUMEROCTE_80680",
 				"LBL_CNTAS_SALDOVUNY_31139",
-				"LBL_CNTAS_TIPOCUEAA_92688"
+				"LBL_CNTAS_TIPOCUEAA_92688",
+				"MSG_CNTAS_VALORFUGA_34899"
 			],
 			"queries": {
 			},

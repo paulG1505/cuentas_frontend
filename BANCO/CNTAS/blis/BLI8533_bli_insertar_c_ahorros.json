@@ -34,17 +34,6 @@
 			"value": "2598"
 		},
 		{
-			"attributeId": "AT98_NUMEROUE224",
-			"bddType": "varchar",
-			"dataType": "VARCHAR",
-			"direction": "in",
-			"entityId": "EN_CUENTAEUK_224",
-			"format": "",
-			"name": "@i_banco",
-			"type": "ATTRIBUTE",
-			"value": ""
-		},
-		{
 			"attributeId": "AT26_CLIENTEE224",
 			"bddType": "varchar",
 			"dataType": "VARCHAR",
