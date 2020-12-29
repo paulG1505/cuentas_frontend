@@ -374,36 +374,18 @@ function VC_CLIENTEVFG_470834(cobisMainModule) {
             });
             $scope.vc.grids.QV_BV32_OZJ75 = {};
             $scope.vc.grids.QV_BV32_OZJ75.queryId = 'Q_CLIENETT_YU32';
+            $scope.vc.grids.QV_BV32_OZJ75.entityName = 'Cliente';
             $scope.vc.viewState.QV_BV32_OZJ75 = {
                 style: []
             };
             $scope.vc.viewState.QV_BV32_OZJ75.column = {};
             $scope.vc.grids.QV_BV32_OZJ75.editable = {
-                mode: 'inline',
-                confirmation: false
+                mode: 'inline'
             };
             $scope.vc.grids.QV_BV32_OZJ75.events = {
-                customCreate: function(e, entity) {
-                    var dialogParameters = {
-                        nameEntityGrid: entity,
-                        rowData: new $scope.vc.types.Cliente(),
-                        rowIndex: -1,
-                        isNew: true,
-                        hasBeforeOpenDialogEvent: false,
-                        hasAfterCloseDialogEvent: false,
-                        isModal: true,
-                        moduleId: "CNTAS",
-                        subModuleId: "ADMIN",
-                        taskId: "T_CNTASHLWLUDIX_727",
-                        taskVersion: "1.0.0",
-                        viewContainerId: 'VC_CREATEACNT_470727',
-                        title: 'CNTAS.LBL_CNTAS_CREARCUAA_86369',
-                        size: 'md'
-                    };
-                    $scope.vc.beforeOpenGridDialog("QV_BV32_OZJ75", dialogParameters);
-                },
                 customEdit: function(e, entity, grid) {
                     var dataItem = grid.dataItem($(e.currentTarget).closest("tr"));
+                    $scope.vc.grids.QV_BV32_OZJ75.selectedRow = dataItem;
                     var rowIndex = grid.dataSource.indexOf(dataItem);
                     var row = grid.tbody.find(">tr:not(.k-grouping-row)").eq(rowIndex);
                     var dialogParameters = {
@@ -462,6 +444,13 @@ function VC_CLIENTEVFG_470834(cobisMainModule) {
                             }
                         }
                     }
+                    if (angular.isDefined(this.options) && this.options.selectable && angular.isDefined($scope.vc.grids.QV_BV32_OZJ75.selectedRow)) {
+                        $('[data-uid=' + $scope.vc.grids.QV_BV32_OZJ75.selectedRow.uid + ']').addClass("k-state-selected");
+                    }
+                    $(grid.tbody).off("click", "td");
+                    $(grid.tbody).on("click", "td", function(event) {
+                        $scope.vc.gridRowChange(grid, "Cliente", $scope, event);
+                    });
                 }
             };
             //Comandos de registros del Grid
@@ -585,9 +574,6 @@ function VC_CLIENTEVFG_470834(cobisMainModule) {
             $scope.vc.viewState.QV_BV32_OZJ75.column.edit = {
                 element: []
             };
-            $scope.vc.viewState.QV_BV32_OZJ75.column["delete"] = {
-                element: []
-            };
             $scope.vc.viewState.QV_BV32_OZJ75.column.cmdEdition = {};
             $scope.vc.viewState.QV_BV32_OZJ75.column.cmdEdition.hidden = (!designer.enums.hasFlag(designer.constants.mode.Query, $scope.vc.mode)) ? false : true;
             $scope.vc.grids.QV_BV32_OZJ75.columns.push({
@@ -599,11 +585,6 @@ function VC_CLIENTEVFG_470834(cobisMainModule) {
                     entity: "Cliente",
                     cssMap: "{'btn': true, 'btn-default': true, 'cb-row-image-button': true" + ", '': !vc.viewState.G_CLIENTETYG_624977.disabled}",
                     template: "<a ng-class='vc.getCssClass(\"customEdit\", " + "vc.viewState.QV_BV32_OZJ75.column.edit.element[dataItem.uid].style, #:cssMap#, vc.viewState.QV_BV32_OZJ75.column.edit.element[dataItem.dsgnrId].style)' " + "title=\"{{'DSGNR.SYS_DSGNR_LBLEDIT00_00005'|translate}}\" " + "ng-disabled = (vc.viewState.G_CLIENTETYG_624977.disabled==true?true:false) " + "data-ng-click = 'vc.grids.QV_BV32_OZJ75.events.customEdit($event, \"#:entity#\", grids.QV_BV32_OZJ75)' " + "href='\\#'>" + "<span class='fa fa-pencil'></span>" + "</a>"
-                }, {
-                    name: "destroy",
-                    text: "{{'DSGNR.SYS_DSGNR_LBLDELETE_00008'|translate}}",
-                    cssMap: "{'btn': true, 'btn-default': true, 'cb-row-image-button': true" + ", 'k-grid-delete': !vc.viewState.G_CLIENTETYG_624977.disabled}",
-                    template: "<a ng-class='vc.getCssClass(\"destroy\", " + "vc.viewState.QV_BV32_OZJ75.column.delete.element[dataItem.uid].style, #:cssMap#, vc.viewState.QV_BV32_OZJ75.column.delete.element[dataItem.dsgnrId].style)' " + "title=\"{{'DSGNR.SYS_DSGNR_LBLDELETE_00008'|translate}}\" " + "ng-disabled = (vc.viewState.G_CLIENTETYG_624977.disabled==true?true:false) " + ">" + "<span class='fa fa-times'></span>" + "</a>"
                 }],
                 attributes: {
                     "class": "btn-toolbar"
@@ -611,17 +592,8 @@ function VC_CLIENTEVFG_470834(cobisMainModule) {
                 hidden: designer.enums.hasFlag(designer.constants.mode.Query, $scope.vc.mode) === true ? true : $scope.vc.viewState.QV_BV32_OZJ75.column.cmdEdition.hidden,
                 width: Number(sessionStorage.columnSize) || 100
             });
-            $scope.vc.viewState.QV_BV32_OZJ75.toolbar = {
-                create: {
-                    visible: !designer.enums.hasFlag(designer.constants.mode.Query, $scope.vc.mode)
-                }
-            }
-            $scope.vc.grids.QV_BV32_OZJ75.toolbar = [{
-                "name": "create",
-                "entity": "Cliente",
-                "text": "",
-                "template": "<button id = 'QV_BV32_OZJ75_CUSTOM_CREATE' class = 'btn btn-default cb-grid-button' " + "ng-if = 'vc.viewState.QV_BV32_OZJ75.toolbar.create.visible' " + "ng-disabled = 'vc.viewState.G_CLIENTETYG_624977.disabled?true:false' " + "title = \"{{'DSGNR.SYS_DSGNR_LBLNEW000_00013'|translate}}\" " + "data-ng-click = 'vc.grids.QV_BV32_OZJ75.events.customCreate($event, \"#:entity#\")'> " + "<span class = 'fa fa-plus'></span>{{'DSGNR.SYS_DSGNR_LBLNEW000_00013'|translate}}</button>"
-            }];
+            $scope.vc.viewState.QV_BV32_OZJ75.toolbar = {}
+            $scope.vc.grids.QV_BV32_OZJ75.toolbar = [];
             //ViewState - Command: Accept
             $scope.vc.createViewState({
                 id: "T_CNTASJJPLZAZE_834_ACCEPT",
