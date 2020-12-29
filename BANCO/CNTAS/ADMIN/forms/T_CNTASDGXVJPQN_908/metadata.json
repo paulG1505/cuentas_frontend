@@ -1,0 +1,24 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CLIENTEAU_514",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_FILTROCUA_619",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "CNTAS",
+			"queryId": "Q_CLIENUNN_VJ99",
+			"related": false,
+			"subModuleId": "ADMIN"
+		}
+	]
+}

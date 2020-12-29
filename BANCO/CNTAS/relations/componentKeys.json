@@ -3,25 +3,40 @@
 		"CompositeForms": {
 		},
 		"Forms": {
+			"T_CNTASDGXVJPQN_908": {
+				"name": "formDeposito"
+			},
+			"T_CNTASGVQQWGCD_328": {
+				"name": "formRetiros"
+			},
 			"T_CNTASHLWLUDIX_727": {
 				"name": "CreateAccount"
 			},
 			"T_CNTASJJPLZAZE_834": {
 				"name": "FormCliente"
-			},
-	"T_CNTASGVQQWGCD_328": {
-				"name": "formRetiros"
 			}
 		},
 		"Queries": {
 			"Q_CLIENETT_YU32": {
 				"name": "ClienteQuery"
+			},
+			"Q_CLIENUNN_VJ99": {
+				"name": "ClienteCuentaQuery_VJ99"
+			},
+			"Q_CUENAATA_PX47": {
+				"name": "CuentaQuery_PX47"
 			}
 		},
 		"SubForms": {
 		}
 	},
 	"Entities": {
+		"EN_BUSQUEDAC_539": {
+			"name": "BusquedaCliente"
+		},
+		"EN_CLIENTEAU_514": {
+			"name": "ClienteCuenta"
+		},
 		"EN_CLIENTEKF_166": {
 			"name": "Cliente"
 		},
@@ -31,8 +46,8 @@
 		"EN_FILTROCNI_431": {
 			"name": "FiltroCliente"
 		},
-                "EN_BUSQUEDAC_539": {
-			"name": "BusquedaCliente"
+		"EN_FILTROCUA_619": {
+			"name": "FiltroCuenta"
 		}
 	}
 }
