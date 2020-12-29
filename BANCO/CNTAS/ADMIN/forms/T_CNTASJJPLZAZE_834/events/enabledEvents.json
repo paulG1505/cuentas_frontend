@@ -17,6 +17,20 @@
 	},
 	{
 		"attributeName": "",
+		"controlId": "QV_BV32_OZJ75",
+		"controlName": "QV_BV32_OZJ75",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "rowSelecting",
+				"executionType": 1
+			}
+		],
+		"entityName": "Cliente",
+		"eventsType": "queryViewEventType"
+	},
+	{
+		"attributeName": "",
 		"controlId": "VA_VAIMAGEBUTTONNN_242977",
 		"controlName": "",
 		"controlType": "ImageButton",
