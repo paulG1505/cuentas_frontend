@@ -15,7 +15,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "CNTAS",
 					"moduleName": "Cuentas",
 					"name": "formRetiros",

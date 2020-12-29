@@ -11,6 +11,7 @@
 		"LBL_CNTAS_NOMBRECLE_58618": "Nombre Cliente",
 		"LBL_CNTAS_NUMEROCAT_57046": "Numero de Cuenta",
 		"LBL_CNTAS_NUMEROCTE_80680": "Numero de Cuenta",
+		"LBL_CNTAS_RETIRARJI_72708": "Retirar",
 		"LBL_CNTAS_SALDODVNN_85317": "Saldo",
 		"LBL_CNTAS_SALDOVUNY_31139": "Saldo",
 		"LBL_CNTAS_TIPOCUEAA_92688": "Tipo de Cuenta",
