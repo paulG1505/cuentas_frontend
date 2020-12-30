@@ -21,6 +21,8 @@
 		"LBL_CNTAS_TIPOCUEAA_92688": "Tipo de Cuenta",
 		"LBL_CNTAS_TIPOCUENT_29510": "Tipo Cuenta",
 		"LBL_CNTAS_TIPOCUENT_58975": "Tipo de Cuenta",
+		"MSG_CNTAS_INGRESEIL_44573": "Ingrese el valor a retirar",
+		"MSG_CNTAS_INGRESENE_53938": "Ingrese el Numero de Cuenta",
 		"LBL_CNTAS_TIPODESOT_62957": "Tipo Destino",
 		"LBL_CNTAS_TIPOORING_39891": "Tipo Origen",
 		"LBL_CNTAS_TPOCUENTT_23413": "Tpo de Cuenta",

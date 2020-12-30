@@ -45,7 +45,7 @@
 			"value": ""
 		},
 		{
-			"attributeId": "AT36_CEDULAET539",
+			"attributeId": "AT97_CODCLIEE539",
 			"bddType": "varchar",
 			"dataType": "VARCHAR",
 			"direction": "in",
@@ -68,8 +68,8 @@
 		},
 		{
 			"attributeId": "AT38_TIPOCUNA539",
-			"bddType": "char",
-			"dataType": "CHAR",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
 			"direction": "in",
 			"entityId": "EN_BUSQUEDAC_539",
 			"format": "",

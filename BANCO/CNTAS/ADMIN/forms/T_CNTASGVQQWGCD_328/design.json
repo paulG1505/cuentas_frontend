@@ -33,6 +33,23 @@
 			"columnsNum": 1,
 			"componentStyle": null,
 			"customEvents": [
+				{
+					"customEventId": "CEVC_002T_CNTASGVQQWGCD_328_350",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+					],
+					"executionType": 1,
+					"filter": null,
+					"isEnabled": true,
+					"viewContainerEventType": {
+						"availableExecutionType": 7,
+						"description": "Inicializaci\u00f3n de datos de un ViewContainer, despues de este evento se realiza el segimiento de cambios en los datos",
+						"eventId": 2,
+						"name": "InitData"
+					}
+				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
@@ -684,6 +701,13 @@
 												],
 												"actionId": "CUSTOM",
 												"actionType": "CUSTOM"
+											},
+											{
+												"actionArgs": [
+												],
+												"actionId": "BLI9435_bli_insertar_retiro",
+												"actionType": "BLI",
+												"controlId": "VA_VABUTTONROHFQQZ_817860"
 											}
 										],
 										"executionType": 7,
