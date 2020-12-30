@@ -33,7 +33,8 @@
 							"actionArgs": [
 							],
 							"actionId": "BLI1505_bli_depositarmoney",
-							"actionType": "BLI"
+							"actionType": "BLI",
+							"controlId": "CM_TCNTASZK_K8C"
 						}
 					],
 					"executionType": 7,
@@ -240,23 +241,6 @@
 									"$ref": "../../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT55_MONTORIM514"
 								},
 								"attributeValidations": [
-									{
-										"compareOperator": -1,
-										"id": "VV_MONTORMVMEHYNMX_44354117",
-										"maxValue": "0",
-										"minValue": "5",
-										"validateMessageLabel": {
-											"defaultValue": {
-												"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/MSG/MSG_CNTAS_ELDEPSIAS_18400"
-											},
-											"labelId": "MSG_CNTAS_ELDEPSIAS_18400",
-											"moduleId": "CNTAS"
-										},
-										"visualValidationType": {
-											"description": "RangeValues Validation",
-											"visualValidationId": "RangeValues"
-										}
-									}
 								],
 								"colSpan": 1,
 								"componentInGrid": false,

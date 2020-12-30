@@ -76,7 +76,6 @@
 						"queryView": {
 							"actionDesign": "Button",
 							"actions": [
-								"Create,Update,Delete"
 							],
 							"allowPaging": false,
 							"allowPagingStr": "F",
@@ -91,11 +90,11 @@
 							"customizationLayer": 0,
 							"customizationLayerDescription": "ECU",
 							"customUrlDialog": null,
-							"deleteCommandEnabled": true,
-							"deleteCommandEnabledStr": "T",
+							"deleteCommandEnabled": false,
+							"deleteCommandEnabledStr": "F",
 							"dialogTitleLabelId": null,
-							"editCommandEnabled": true,
-							"editCommandEnabledStr": "T",
+							"editCommandEnabled": false,
+							"editCommandEnabledStr": "F",
 							"editMode": "0",
 							"entityName": {
 								"$ref": "../../../../CNTAS/entities/EN_TRANSACIC_229.json#/name"
@@ -110,8 +109,8 @@
 								"AT63_TIPOTRAC229",
 								"AT14_TIPOCUTT229"
 							],
-							"insertCommandEnabled": true,
-							"insertCommandEnabledStr": "T",
+							"insertCommandEnabled": false,
+							"insertCommandEnabledStr": "F",
 							"isCustomized": false,
 							"modalSize": null,
 							"modeSelection": "None",
@@ -132,7 +131,7 @@
 							"rowCommandAppearance": 0,
 							"style": null,
 							"subModuleIdDialog": null,
-							"taskIdDialog": "1.0.0",
+							"taskIdDialog": null,
 							"taskVersionDialog": null,
 							"typeFormDialog": null,
 							"userControl": {

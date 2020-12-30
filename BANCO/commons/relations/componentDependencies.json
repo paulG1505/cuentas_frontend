@@ -34,11 +34,11 @@
 			"labels": [
 			]
 		},
-		"EN_TRANSFENC_281": {
+		"EN_TRANSACIC_229": {
 			"labels": [
 			]
 		},
-		"EN_TRANSACIC_229": {
+		"EN_TRANSFENC_281": {
 			"labels": [
 			]
 		}
@@ -301,8 +301,7 @@
 				"LBL_CNTAS_CUENTAVRN_12484",
 				"LBL_CNTAS_DEPOSITAA_41746",
 				"LBL_CNTAS_MONTOQCYX_65686",
-				"LBL_CNTAS_TIPOCUEAA_92688",
-				"MSG_CNTAS_ELDEPSIAS_18400"
+				"LBL_CNTAS_TIPOCUEAA_92688"
 			],
 			"queries": {
 			},
