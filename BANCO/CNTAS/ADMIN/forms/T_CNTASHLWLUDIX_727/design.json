@@ -30,7 +30,7 @@
 							"actionType": "CUSTOM"
 						}
 					],
-					"executionType": 3,
+					"executionType": 7,
 					"filter": null,
 					"isEnabled": true
 				}
@@ -303,7 +303,7 @@
 								"attributeValidations": [
 								],
 								"cacheDuration": 0,
-								"catalogName": "cl_tipo_cuenta",
+								"catalogName": "cl_tipo_cuenta_g4",
 								"colSpan": 1,
 								"componentInGrid": false,
 								"componentStyle": null,
