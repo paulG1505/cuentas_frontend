@@ -10,6 +10,8 @@
 		"LBL_CNTAS_GUARDARUL_62499": "Guardar",
 		"LBL_CNTAS_NOMBRECLE_58618": "Nombre Cliente",
 		"LBL_CNTAS_NUMEROCAT_57046": "Numero de Cuenta",
+		"LBL_CNTAS_NUMEROCRN_57929": "Numero de Cuenta Origen",
+		"LBL_CNTAS_NUMEROCTE_29522": "Numero de Cuenta Destino",
 		"LBL_CNTAS_NUMEROCTE_80680": "Numero de Cuenta",
 		"LBL_CNTAS_RETIRARJI_72708": "Retirar",
 		"LBL_CNTAS_SALDODVNN_85317": "Saldo",

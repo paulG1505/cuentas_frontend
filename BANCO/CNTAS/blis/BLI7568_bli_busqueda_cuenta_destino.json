@@ -2,12 +2,12 @@
 	"databaseType": "Sybase",
 	"inputEntity": [
 		{
-			"entityId": "EN_BUSQUEDAC_539",
+			"entityId": "EN_BUSQUEDNT_245",
 			"module": {
 				"moduleId": "CNTAS",
 				"moduleName": "Cuentas"
 			},
-			"name": "BusquedaCliente"
+			"name": "BUsquedaCliente2"
 		}
 	],
 	"inputParameters": [
@@ -34,93 +34,94 @@
 			"value": "2599"
 		},
 		{
-			"attributeId": "AT82_NUMEROCA539",
+			"attributeId": "AT85_NUMEROCT245",
 			"bddType": "int",
 			"dataType": "INT",
 			"direction": "in",
-			"entityId": "EN_BUSQUEDAC_539",
+			"entityId": "EN_BUSQUEDNT_245",
 			"format": "",
 			"name": "@i_numero_cuenta",
 			"type": "ATTRIBUTE",
 			"value": ""
+		},
+		{
+			"attributeId": "AT60_NOMBRELL245",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_BUSQUEDNT_245",
+			"format": "",
+			"name": "@i_cliente",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT67_SALDOQXJ245",
+			"bddType": "float",
+			"dataType": "DOUBLE",
+			"direction": "in",
+			"entityId": "EN_BUSQUEDNT_245",
+			"format": "",
+			"name": "@i_saldo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT85_NUMEROCT245",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_BUSQUEDNT_245",
+			"format": "",
+			"name": "@i_numero_cuenta_destino",
+			"type": "ATTRIBUTE",
+			"value": ""
 		}
 	],
-	"name": "BLI_Consulta_Retiro",
+	"name": "BLI_busqueda_cuenta_destino",
 	"outputEntity": [
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI4348_bli_consulta_retiro",
-	"patternName": "BLI_Consulta_Retiro",
+	"patternId": "BLI7568_bli_busqueda_cuenta_destino",
+	"patternName": "BLI_busqueda_cuenta_destino",
 	"patternType": "Bli",
 	"queries": [
 		{
-			"_idQuery": "151a2750-29fb-4a4f-bd65-08d6dd5036b4",
+			"_idQuery": "2a69df40-2bde-42e2-9566-8c552429ab8e",
 			"isMapReturn": true,
 			"isReturn": true,
 			"isSingleResult": true,
-			"numberQuery": 4,
+			"numberQuery": 3,
 			"queryName": "SELECT"
 		}
 	],
 	"resultSets": [
 		{
-			"_idQuery": "151a2750-29fb-4a4f-bd65-08d6dd5036b4",
+			"_idQuery": "2a69df40-2bde-42e2-9566-8c552429ab8e",
 			"columns": [
 				{
-					"attributeId": "AT82_NUMEROCA539",
-					"entityId": "EN_BUSQUEDAC_539",
+					"attributeId": "AT85_NUMEROCT245",
+					"entityId": "EN_BUSQUEDNT_245",
 					"format": "",
 					"name": "{0}",
 					"position": 1,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT97_CODCLIEE539",
-					"entityId": "EN_BUSQUEDAC_539",
-					"format": "",
-					"name": "{1}",
-					"position": 2,
-					"type": "ATTRIBUTE"
-				},
-				{
-					"attributeId": "AT95_SALDODKD539",
-					"entityId": "EN_BUSQUEDAC_539",
+					"attributeId": "AT67_SALDOQXJ245",
+					"entityId": "EN_BUSQUEDNT_245",
 					"format": "",
 					"name": "{2}",
 					"position": 3,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT36_CEDULAET539",
-					"entityId": "EN_BUSQUEDAC_539",
-					"format": "",
-					"name": "{3}",
-					"position": 4,
-					"type": "ATTRIBUTE"
-				},
-				{
-					"attributeId": "AT46_NOMBRENE539",
-					"entityId": "EN_BUSQUEDAC_539",
+					"attributeId": "AT60_NOMBRELL245",
+					"entityId": "EN_BUSQUEDNT_245",
 					"format": "",
 					"name": "{4}",
 					"position": 5,
-					"type": "ATTRIBUTE"
-				},
-				{
-					"attributeId": "AT41_APELLINI539",
-					"entityId": "EN_BUSQUEDAC_539",
-					"format": "",
-					"name": "{5}",
-					"position": 6,
-					"type": "ATTRIBUTE"
-				},
-				{
-					"attributeId": "AT38_TIPOCUNA539",
-					"entityId": "EN_BUSQUEDAC_539",
-					"format": "",
-					"name": "tipo_cuenta",
-					"position": 9,
 					"type": "ATTRIBUTE"
 				}
 			],
@@ -130,12 +131,12 @@
 	],
 	"returnEntity": [
 		{
-			"entityId": "EN_BUSQUEDAC_539",
+			"entityId": "EN_BUSQUEDNT_245",
 			"module": {
 				"moduleId": "CNTAS",
 				"moduleName": "Cuentas"
 			},
-			"name": "BusquedaCliente"
+			"name": "BUsquedaCliente2"
 		}
 	],
 	"serverName": "CENTRAL",

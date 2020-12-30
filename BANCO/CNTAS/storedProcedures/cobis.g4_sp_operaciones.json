@@ -94,6 +94,11 @@
 				"dataType": "char",
 				"direction": "in",
 				"name": "@i_tipo_cuenta"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_numero_cuenta_destino"
 			}
 		],
 		"queries": [
@@ -132,6 +137,22 @@
 					"{3}",
 					"{4}",
 					"{5}",
+					"tipo_cuenta"
+				],
+				"editMode": false,
+				"queryText": "SELECT"
+			},
+			{
+				"_idQuery": "151a2750-29fb-4a4f-bd65-08d6dd5036b4",
+				"columns": [
+					"{0}",
+					"{1}",
+					"{2}",
+					"{3}",
+					"{4}",
+					"{5}",
+					"{6}",
+					"{7}",
 					"tipo_cuenta"
 				],
 				"editMode": false,
