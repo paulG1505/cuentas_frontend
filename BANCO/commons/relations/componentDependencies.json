@@ -69,7 +69,8 @@
 		},
 		"T_CNTASGVQQWGCD_328": {
 			"blis": [
-				"BLI4348_bli_consulta_retiro"
+				"BLI4348_bli_consulta_retiro",
+				"BLI9435_bli_insertar_retiro"
 			],
 			"entities": {
 				"EN_BUSQUEDAC_539": [

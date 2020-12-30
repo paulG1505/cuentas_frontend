@@ -684,6 +684,13 @@
 												],
 												"actionId": "CUSTOM",
 												"actionType": "CUSTOM"
+											},
+											{
+												"actionArgs": [
+												],
+												"actionId": "BLI9435_bli_insertar_retiro",
+												"actionType": "BLI",
+												"controlId": "VA_VABUTTONROHFQQZ_817860"
 											}
 										],
 										"executionType": 7,

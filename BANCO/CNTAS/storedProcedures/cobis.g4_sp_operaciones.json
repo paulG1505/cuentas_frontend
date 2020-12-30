@@ -91,7 +91,7 @@
 				"name": "@i_saldo"
 			},
 			{
-				"dataType": "char",
+				"dataType": "varchar",
 				"direction": "in",
 				"name": "@i_tipo_cuenta"
 			}
