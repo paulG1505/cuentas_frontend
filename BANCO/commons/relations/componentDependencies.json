@@ -6,6 +6,10 @@
 			"labels": [
 			]
 		},
+		"EN_BUSQUEDNT_245": {
+			"labels": [
+			]
+		},
 		"EN_CLIENTEAU_514": {
 			"labels": [
 			]
@@ -23,6 +27,10 @@
 			]
 		},
 		"EN_FILTROCUA_619": {
+			"labels": [
+			]
+		},
+		"EN_TRANSFENC_281": {
 			"labels": [
 			]
 		}
@@ -168,10 +176,67 @@
 			},
 			"subForms": [
 			]
+		},
+		"T_CNTASYIFZVDCH_412": {
+			"blis": [
+				"BLI4348_bli_consulta_retiro",
+				"BLI5893_bli_transferencia",
+				"BLI7568_bli_busqueda_cuenta_destino"
+			],
+			"entities": {
+				"EN_BUSQUEDAC_539": [
+					"AT38_TIPOCUNA539",
+					"AT46_NOMBRENE539",
+					"AT82_NUMEROCA539",
+					"AT95_SALDODKD539"
+				],
+				"EN_BUSQUEDNT_245": [
+					"AT60_NOMBRELL245",
+					"AT67_SALDOQXJ245",
+					"AT74_TIPOCUNE245",
+					"AT85_NUMEROCT245"
+				],
+				"EN_TRANSFENC_281": [
+					"AT25_CUENTADD281",
+					"AT44_VALORFBM281",
+					"AT59_TIPODSNZ281",
+					"AT60_CUENTAOO281",
+					"AT87_TIPOOBZV281"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_CUENTADOT_79326",
+				"LBL_CNTAS_CUENTAOIG_73665",
+				"LBL_CNTAS_NOMBRECLE_58618",
+				"LBL_CNTAS_NUMEROCRN_57929",
+				"LBL_CNTAS_NUMEROCTE_29522",
+				"LBL_CNTAS_SALDODVNN_85317",
+				"LBL_CNTAS_TIPOCUEAA_92688",
+				"LBL_CNTAS_TIPODESOT_62957",
+				"LBL_CNTAS_TIPOORING_39891",
+				"LBL_CNTAS_TPOCUENTT_23413",
+				"LBL_CNTAS_TRANSFEIC_97652",
+				"LBL_CNTAS_TRANSFERI_63983",
+				"LBL_CNTAS_VALORATIR_80202"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
 		}
 	},
 	"Queries": {
 		"Q_BUSQAAEL_SG59": {
+			"labels": [
+			]
+		},
+		"Q_BUSQNETE_YR13": {
 			"labels": [
 			]
 		},

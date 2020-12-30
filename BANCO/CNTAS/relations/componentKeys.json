@@ -14,11 +14,17 @@
 			},
 			"T_CNTASJJPLZAZE_834": {
 				"name": "FormCliente"
+			},
+			"T_CNTASYIFZVDCH_412": {
+				"name": "formTransferencia"
 			}
 		},
 		"Queries": {
 			"Q_BUSQAAEL_SG59": {
 				"name": "BusquedaClienteQuery"
+			},
+			"Q_BUSQNETE_YR13": {
+				"name": "BUsquedaCliente2Query"
 			},
 			"Q_CLIENETT_YU32": {
 				"name": "ClienteQuery"
@@ -37,6 +43,9 @@
 		"EN_BUSQUEDAC_539": {
 			"name": "BusquedaCliente"
 		},
+		"EN_BUSQUEDNT_245": {
+			"name": "BUsquedaCliente2"
+		},
 		"EN_CLIENTEAU_514": {
 			"name": "ClienteCuenta"
 		},
@@ -51,6 +60,9 @@
 		},
 		"EN_FILTROCUA_619": {
 			"name": "FiltroCuenta"
+		},
+		"EN_TRANSFENC_281": {
+			"name": "Transferencia"
 		}
 	}
 }

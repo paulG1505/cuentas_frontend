@@ -48,6 +48,23 @@
 			"entities": {
 				"inputEntity": [
 					{
+						"entityId": "EN_TRANSFENC_281",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI5893_bli_transferencia",
+			"nameBli": "BLI_transferencia"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
 						"entityId": "EN_FILTROCNI_431",
 						"moduleId": "CNTAS",
 						"related": false
@@ -65,6 +82,28 @@
 			},
 			"idBli": "BLI6988_bli_consulta_cliente",
 			"nameBli": "BLI_consulta_cliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_BUSQUEDNT_245",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_BUSQUEDNT_245",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI7568_bli_busqueda_cuenta_destino",
+			"nameBli": "BLI_busqueda_cuenta_destino"
 		},
 		{
 			"entities": {

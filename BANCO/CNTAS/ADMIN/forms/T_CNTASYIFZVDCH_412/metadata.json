@@ -1,0 +1,24 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_BUSQUEDAC_539",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_BUSQUEDNT_245",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_TRANSFENC_281",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}
