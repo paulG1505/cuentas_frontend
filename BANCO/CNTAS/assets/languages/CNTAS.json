@@ -30,6 +30,8 @@
 			"LBL_CNTAS_VALORATIR_80202": "Valor a transferir"
 		},
 		"MSG": {
+			"MSG_CNTAS_INGRESEIL_44573": "Ingrese el valor a retirar",
+			"MSG_CNTAS_INGRESENE_53938": "Ingrese el Numero de Cuenta",
 			"MSG_CNTAS_RANGOSANO_16064": "Rango de saldo no permitido",
 			"MSG_CNTAS_VALORFUGA_34899": "Valor fuera de rango"
 		}
