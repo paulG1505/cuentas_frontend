@@ -1,2 +1,16 @@
 [
+	{
+		"attributeName": "",
+		"controlId": "CM_TCNTASZK_K8C",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "",
+		"eventsType": "commandEventType"
+	}
 ]

@@ -1,0 +1,146 @@
+{
+	"customEvents": [
+		{
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 7,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_TRANACAI_XM41",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_TRANSACIC_229",
+	"mainEntityModule": "CNTAS",
+	"mainEntityName": {
+		"$ref": "../../../CNTAS/relations/componentKeys.json#/Entities/EN_TRANSACIC_229/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../CNTAS/relations/componentKeys.json#/ADMIN/Queries/Q_TRANACAI_XM41/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "tipoTransaccion",
+			"attribute": {
+				"$ref": "../../../CNTAS/entities/EN_TRANSACIC_229.json#/attributes/AT63_TIPOTRAC229"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_TRANA1MI1C977_04",
+			"select": true,
+			"selectStr": "T",
+			"whereStr": "F"
+		},
+		{
+			"alias": "tipoCuenta",
+			"attribute": {
+				"$ref": "../../../CNTAS/entities/EN_TRANSACIC_229.json#/attributes/AT14_TIPOCUTT229"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_TRANA4XCXI546_05",
+			"select": true,
+			"selectStr": "T",
+			"whereStr": "F"
+		},
+		{
+			"alias": "numeroCuenta",
+			"attribute": {
+				"$ref": "../../../CNTAS/entities/EN_TRANSACIC_229.json#/attributes/AT12_NUMERONU229"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_TRANACIX14678_03",
+			"select": true,
+			"selectStr": "T",
+			"whereStr": "F"
+		},
+		{
+			"alias": "fechaTransaccion",
+			"attribute": {
+				"$ref": "../../../CNTAS/entities/EN_TRANSACIC_229.json#/attributes/AT11_FECHATOS229"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_TRANAXI1IM606_02",
+			"select": true,
+			"selectStr": "T",
+			"whereStr": "F"
+		},
+		{
+			"alias": "idTransaccion",
+			"attribute": {
+				"$ref": "../../../CNTAS/entities/EN_TRANSACIC_229.json#/attributes/AT11_IDTRANOO229"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_TRANAXIXMC343_01",
+			"select": true,
+			"selectStr": "T",
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "CNTAS",
+				"subModuleId": "ADMIN"
+			}
+		}
+	]
+}

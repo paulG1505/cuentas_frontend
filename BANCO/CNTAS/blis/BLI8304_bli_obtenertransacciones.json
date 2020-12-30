@@ -1,0 +1,129 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_FILTROCUA_619",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "Cuentas"
+			},
+			"name": "FiltroCuenta"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "S"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "2599"
+		},
+		{
+			"attributeId": "AT66_CUENTAWQ619",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_FILTROCUA_619",
+			"format": "",
+			"name": "@i_numero_cuenta",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_obtenerTransacciones",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI8304_bli_obtenertransacciones",
+	"patternName": "BLI_obtenerTransacciones",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "b4988545-044d-452a-81fa-c621d6dde139",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "SELECT"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "b4988545-044d-452a-81fa-c621d6dde139",
+			"columns": [
+				{
+					"attributeId": "AT11_IDTRANOO229",
+					"entityId": "EN_TRANSACIC_229",
+					"format": "",
+					"name": "id",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT11_FECHATOS229",
+					"entityId": "EN_TRANSACIC_229",
+					"format": "",
+					"name": "fecha",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT12_NUMERONU229",
+					"entityId": "EN_TRANSACIC_229",
+					"format": "",
+					"name": "cuenta",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT63_TIPOTRAC229",
+					"entityId": "EN_TRANSACIC_229",
+					"format": "",
+					"name": "transaccion",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT14_TIPOCUTT229",
+					"entityId": "EN_TRANSACIC_229",
+					"format": "",
+					"name": "tipoCuenta",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_TRANSACIC_229",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "Cuentas"
+			},
+			"name": "TransaccionADBS"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g4_sp_operaciones",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

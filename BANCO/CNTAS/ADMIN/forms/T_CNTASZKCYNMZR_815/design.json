@@ -11,6 +11,35 @@
 			"closeAsString": "F",
 			"commandType": 0,
 			"customEvents": [
+				{
+					"commandEventType": {
+						"availableExecutionType": 7,
+						"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+						"eventId": 10,
+						"name": "ExecuteCommand"
+					},
+					"customEventId": "CECM_010CM_TCNTASZK_K8C_363",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+						{
+							"actionArgs": [
+							],
+							"actionId": "CUSTOM",
+							"actionType": "CUSTOM"
+						},
+						{
+							"actionArgs": [
+							],
+							"actionId": "BLI1505_bli_depositarmoney",
+							"actionType": "BLI"
+						}
+					],
+					"executionType": 7,
+					"filter": null,
+					"isEnabled": true
+				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
@@ -211,6 +240,23 @@
 									"$ref": "../../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT55_MONTORIM514"
 								},
 								"attributeValidations": [
+									{
+										"compareOperator": -1,
+										"id": "VV_MONTORMVMEHYNMX_44354117",
+										"maxValue": "0",
+										"minValue": "5",
+										"validateMessageLabel": {
+											"defaultValue": {
+												"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/MSG/MSG_CNTAS_ELDEPSIAS_18400"
+											},
+											"labelId": "MSG_CNTAS_ELDEPSIAS_18400",
+											"moduleId": "CNTAS"
+										},
+										"visualValidationType": {
+											"description": "RangeValues Validation",
+											"visualValidationId": "RangeValues"
+										}
+									}
 								],
 								"colSpan": 1,
 								"componentInGrid": false,

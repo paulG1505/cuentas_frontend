@@ -1,0 +1,32 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_TRANACAI_XM41",
+		"controlName": "TransaccionADBSQuery_XM41",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../CNTAS/ADMIN/queries/Q_TRANACAI_XM41.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "TransaccionADBS",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_121639",
+		"controlName": "VA_VAIMAGEBUTTONNN_121639",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "FiltroCuenta",
+		"eventsType": "visualAttributeEventType"
+	}
+]
