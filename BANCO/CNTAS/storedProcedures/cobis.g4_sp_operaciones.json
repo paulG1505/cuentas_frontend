@@ -81,6 +81,11 @@
 				"name": "@i_numero_cuenta"
 			},
 			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_numero_cuenta_destino"
+			},
+			{
 				"dataType": "varchar",
 				"direction": "in",
 				"name": "@i_cliente"
@@ -167,6 +172,18 @@
 				],
 				"editMode": false,
 				"queryText": "SELECT"
+			},
+{
+				"_idQuery": "b4988545-044d-452a-81fa-c621d6dde139",
+				"columns": [
+					"id",
+					"fecha",
+					"cuenta",
+					"transaccion",
+					"tipoCuenta"
+				],
+				"editMode": false,
+				"queryText": "SELECT"
 			}
 		],
 		"variables": [
@@ -193,6 +210,10 @@
 			{
 				"dataType": "float",
 				"name": "@w_saldoActual"
+			},
+			{
+				"dataType": "float",
+				"name": "@w_saldoDestino"
 			},
 			{
 				"dataType": "varchar",

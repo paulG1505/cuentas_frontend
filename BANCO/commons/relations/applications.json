@@ -31,6 +31,14 @@
 				{
 					"generated": 4,
 					"moduleId": "CNTAS",
+					"name": "FormTransaccionesADBS",
+					"subModuleId": "ADMIN",
+					"taskId": "T_CNTASIOOVXUDT_920",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "CNTAS",
 					"name": "FormCliente",
 					"subModuleId": "ADMIN",
 					"taskId": "T_CNTASJJPLZAZE_834",
@@ -42,6 +50,14 @@
 					"name": "formTransferencia",
 					"subModuleId": "ADMIN",
 					"taskId": "T_CNTASYIFZVDCH_412",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "CNTAS",
+					"name": "formDepositarADBS",
+					"subModuleId": "ADMIN",
+					"taskId": "T_CNTASZKCYNMZR_815",
 					"type": "Simple form"
 				}
 			]

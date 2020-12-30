@@ -12,11 +12,17 @@
 			"T_CNTASHLWLUDIX_727": {
 				"name": "CreateAccount"
 			},
+			"T_CNTASIOOVXUDT_920": {
+				"name": "FormTransaccionesADBS"
+			},
 			"T_CNTASJJPLZAZE_834": {
 				"name": "FormCliente"
 			},
 			"T_CNTASYIFZVDCH_412": {
 				"name": "formTransferencia"
+			},
+			"T_CNTASZKCYNMZR_815": {
+				"name": "formDepositarADBS"
 			}
 		},
 		"Queries": {
@@ -34,6 +40,9 @@
 			},
 			"Q_CUENAATA_PX47": {
 				"name": "CuentaQuery_PX47"
+			},
+			"Q_TRANACAI_XM41": {
+				"name": "TransaccionADBSQuery_XM41"
 			}
 		},
 		"SubForms": {
@@ -55,11 +64,17 @@
 		"EN_CUENTAEUK_224": {
 			"name": "Cuenta"
 		},
+		"EN_DEPOSITOO_413": {
+			"name": "Deposito"
+		},
 		"EN_FILTROCNI_431": {
 			"name": "FiltroCliente"
 		},
 		"EN_FILTROCUA_619": {
 			"name": "FiltroCuenta"
+		},
+		"EN_TRANSACIC_229": {
+			"name": "TransaccionADBS"
 		},
 		"EN_TRANSFENC_281": {
 			"name": "Transferencia"

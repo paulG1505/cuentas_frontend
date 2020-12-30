@@ -33,5 +33,12 @@
 				"$ref": "../ADMIN/queries/Q_CUENAATA_PX47.json#"
 			}
 		}
+	},
+	"EN_TRANSACIC_229": {
+		"queries": {
+			"Q_TRANACAI_XM41": {
+				"$ref": "../ADMIN/queries/Q_TRANACAI_XM41.json#"
+			}
+		}
 	}
 }

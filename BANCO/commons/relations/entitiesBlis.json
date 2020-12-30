@@ -4,6 +4,23 @@
 			"entities": {
 				"inputEntity": [
 					{
+						"entityId": "EN_CLIENTEAU_514",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI1505_bli_depositarmoney",
+			"nameBli": "BLI_depositarMoney"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
 						"entityId": "EN_FILTROCUA_619",
 						"moduleId": "CNTAS",
 						"related": false
@@ -19,8 +36,8 @@
 					}
 				]
 			},
-			"idBli": "BLI3128_bli_getclientecuenta",
-			"nameBli": "BLI_getClienteCuenta"
+			"idBli": "BLI2145_bli_getclienteycuenta",
+			"nameBli": "BLI_getClienteyCuenta"
 		},
 		{
 			"entities": {
@@ -121,6 +138,28 @@
 			},
 			"idBli": "BLI7721_bli_insertar_c_corriente",
 			"nameBli": "BLI_insertar_c_corriente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_FILTROCUA_619",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_TRANSACIC_229",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI8304_bli_obtenertransacciones",
+			"nameBli": "BLI_obtenerTransacciones"
 		},
 		{
 			"entities": {

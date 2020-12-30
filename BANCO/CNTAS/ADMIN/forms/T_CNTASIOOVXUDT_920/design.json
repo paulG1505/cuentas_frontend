@@ -13,15 +13,15 @@
 	"id": {
 		"moduleId": "CNTAS",
 		"subModuleId": "ADMIN",
-		"taskId": "T_CNTASDGXVJPQN_908",
+		"taskId": "T_CNTASIOOVXUDT_920",
 		"version": "1.0.0"
 	},
 	"isCustomized": false,
 	"isImported": false,
-	"mainViewContainerId": "VC_DEPOSITOEM_386908",
+	"mainViewContainerId": "VC_TRANSACCBI_564920",
 	"modeEnabled": 4095,
 	"name": {
-		"$ref": "../../../../CNTAS/relations/componentKeys.json#/ADMIN/Forms/T_CNTASDGXVJPQN_908/name"
+		"$ref": "../../../../CNTAS/relations/componentKeys.json#/ADMIN/Forms/T_CNTASIOOVXUDT_920/name"
 	},
 	"setFocus": false,
 	"tempSaveStr": "F",
@@ -40,13 +40,13 @@
 			"id": {
 				"moduleId": "CNTAS",
 				"subModuleId": "ADMIN",
-				"taskId": "T_CNTASDGXVJPQN_908",
+				"taskId": "T_CNTASIOOVXUDT_920",
 				"taskVersion": "1.0.0",
-				"viewContainerId": "VC_DEPOSITOEM_386908"
+				"viewContainerId": "VC_TRANSACCBI_564920"
 			},
 			"isCustomized": false,
 			"layoutType": "Group",
-			"name": "formDeposito",
+			"name": "FormTransaccionesADBS",
 			"options": 0,
 			"responsiveLayouts": null,
 			"responsivity": false,
@@ -62,15 +62,15 @@
 						],
 						"enabled": 4095,
 						"entity": {
-							"$ref": "../../../../CNTAS/entities/EN_CLIENTEAU_514.json#"
+							"$ref": "../../../../CNTAS/entities/EN_TRANSACIC_229.json#"
 						},
 						"eventType": 0,
-						"groupId": "G_DEPOSITOOO_401195",
+						"groupId": "G_TRANSACCBN_612639",
 						"htmlSection": "F",
 						"independentValidation": "F",
 						"isCustomized": false,
 						"layoutType": "Group",
-						"name": "Group1443",
+						"name": "Group2232",
 						"order": 2,
 						"orientation": "V",
 						"queryView": {
@@ -82,7 +82,7 @@
 							"allowPagingStr": "F",
 							"allowSorting": false,
 							"allowSortingStr": "F",
-							"autoSync": false,
+							"autoSync": null,
 							"componentStyle": null,
 							"confirmRowDeletion": false,
 							"confirmRowDeletionStr": "F",
@@ -93,50 +93,48 @@
 							"customUrlDialog": null,
 							"deleteCommandEnabled": true,
 							"deleteCommandEnabledStr": "T",
-							"dialogTitleLabelId": "LBL_CNTAS_DEPOSITAA_41746",
+							"dialogTitleLabelId": null,
 							"editCommandEnabled": true,
 							"editCommandEnabledStr": "T",
-							"editMode": "3",
+							"editMode": "0",
 							"entityName": {
-								"$ref": "../../../../CNTAS/entities/EN_CLIENTEAU_514.json#/name"
+								"$ref": "../../../../CNTAS/entities/EN_TRANSACIC_229.json#/name"
 							},
 							"hasDetail": false,
 							"hasDetailString": "F",
 							"height": null,
 							"includeQueryMembers": [
-								"AT80_TIPOCUEE514",
-								"AT10_SALDOPTH514",
-								"AT90_APELLIOO514",
-								"AT96_NOMBRETT514",
-								"AT81_CEDULAZR514",
-								"AT45_BANCOGAV514",
-								"AT89_CLIENTEE514"
+								"AT11_IDTRANOO229",
+								"AT11_FECHATOS229",
+								"AT12_NUMERONU229",
+								"AT63_TIPOTRAC229",
+								"AT14_TIPOCUTT229"
 							],
 							"insertCommandEnabled": true,
 							"insertCommandEnabledStr": "T",
 							"isCustomized": false,
-							"modalSize": "md",
+							"modalSize": null,
 							"modeSelection": "None",
-							"moduleIdDialog": "CNTAS",
+							"moduleIdDialog": null,
 							"multiSelectEnabledStr": "F",
-							"name": "QV_YA99_YJL91",
+							"name": "QV_KY41_LYT53",
 							"options": 0,
 							"pageSize": null,
 							"query": {
-								"$ref": "../../../../CNTAS/ADMIN/queries/Q_CLIENUNN_VJ99.json#"
+								"$ref": "../../../../CNTAS/ADMIN/queries/Q_TRANACAI_XM41.json#"
 							},
-							"queryId": "Q_CLIENUNN_VJ99",
+							"queryId": "Q_TRANACAI_XM41",
 							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
-							"queryViewId": "QV_YA99_YJL91",
+							"queryViewId": "QV_KY41_LYT53",
 							"queryViewType": "Grid",
 							"rowCommandAppearance": 0,
 							"style": null,
-							"subModuleIdDialog": "ADMIN",
-							"taskIdDialog": "T_CNTASZKCYNMZR_815",
-							"taskVersionDialog": "1.0.0",
-							"typeFormDialog": "forms",
+							"subModuleIdDialog": null,
+							"taskIdDialog": "1.0.0",
+							"taskVersionDialog": null,
+							"typeFormDialog": null,
 							"userControl": {
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
@@ -145,9 +143,9 @@
 								"type": "I",
 								"userControlId": "Grid"
 							},
-							"viewContainerIdDialog": "VC_DEPOSITADA_445815"
+							"viewContainerIdDialog": null
 						},
-						"queryViewId": "QV_YA99_YJL91",
+						"queryViewId": "QV_KY41_LYT53",
 						"responsiveLayouts": null,
 						"responsivity": false,
 						"style": null,
@@ -157,7 +155,44 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT45_BANCOGAV514"
+									"$ref": "../../../../CNTAS/entities/EN_TRANSACIC_229.json#/attributes/AT11_FECHATOS229"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": null,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "fechaTransaccion",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "DateField"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_DATEFIELDOWJJDF_656639",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../CNTAS/entities/EN_TRANSACIC_229.json#/attributes/AT12_NUMERONU229"
 								},
 								"attributeValidations": [
 								],
@@ -172,7 +207,44 @@
 								"include": 4095,
 								"isCustomized": false,
 								"maxRecords": null,
-								"name": "banco",
+								"name": "numeroCuenta",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXIZW_105639",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../CNTAS/entities/EN_TRANSACIC_229.json#/attributes/AT11_IDTRANOO229"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "idTransaccion",
 								"options": 0,
 								"order": 1,
 								"readOnly": 8,
@@ -186,7 +258,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXAMG_255195",
+								"visualAttributeId": "VA_TEXTINPUTBOXJXI_178639",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -194,7 +266,7 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT80_TIPOCUEE514"
+									"$ref": "../../../../CNTAS/entities/EN_TRANSACIC_229.json#/attributes/AT14_TIPOCUTT229"
 								},
 								"attributeValidations": [
 								],
@@ -211,7 +283,7 @@
 								"maxRecords": null,
 								"name": "tipoCuenta",
 								"options": 0,
-								"order": 7,
+								"order": 5,
 								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
@@ -223,7 +295,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXBGP_496195",
+								"visualAttributeId": "VA_TEXTINPUTBOXLGL_840639",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -231,7 +303,7 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT89_CLIENTEE514"
+									"$ref": "../../../../CNTAS/entities/EN_TRANSACIC_229.json#/attributes/AT63_TIPOTRAC229"
 								},
 								"attributeValidations": [
 								],
@@ -246,81 +318,7 @@
 								"include": 4095,
 								"isCustomized": false,
 								"maxRecords": null,
-								"name": "cliente",
-								"options": 0,
-								"order": 2,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXDKI_815195",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT10_SALDOPTH514"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "saldo",
-								"options": 0,
-								"order": 3,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXEHW_138195",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT81_CEDULAZR514"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "cedula",
+								"name": "tipoTransaccion",
 								"options": 0,
 								"order": 4,
 								"readOnly": 8,
@@ -334,81 +332,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXEUQ_180195",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT96_NOMBRETT514"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "nombre",
-								"options": 0,
-								"order": 5,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXVMK_625195",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT90_APELLIOO514"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "apellido",
-								"options": 0,
-								"order": 6,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXWZB_757195",
+								"visualAttributeId": "VA_TEXTINPUTBOXTPI_533639",
 								"width": null,
 								"widthComposite": "D"
 							}
@@ -426,12 +350,12 @@
 							"$ref": "../../../../CNTAS/entities/EN_FILTROCUA_619.json#"
 						},
 						"eventType": 0,
-						"groupId": "G_DEPOSITOOO_976195",
+						"groupId": "G_TRANSACEOI_472639",
 						"htmlSection": "F",
 						"independentValidation": "F",
 						"isCustomized": false,
 						"layoutType": "Group",
-						"name": "Group1293",
+						"name": "Group1771",
 						"order": 1,
 						"orientation": "V",
 						"responsiveLayouts": null,
@@ -480,7 +404,7 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_CUENTAMCTSSIOVY_956195",
+								"visualAttributeId": "VA_CUENTAIGPSCPKBG_973639",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -494,7 +418,7 @@
 								"componentStyle": null,
 								"customEvents": [
 									{
-										"customEventId": "CEVA_010VA_VAIMAGEBUTTONNN_526195_865",
+										"customEventId": "CEVA_010VA_VAIMAGEBUTTONNN_121639_600",
 										"customizationLayer": 0,
 										"customizationLayerDescription": "ECU",
 										"enabled": "T",
@@ -508,8 +432,9 @@
 											{
 												"actionArgs": [
 												],
-												"actionId": "BLI2145_bli_getclienteycuenta",
-												"actionType": "BLI"
+												"actionId": "BLI8304_bli_obtenertransacciones",
+												"actionType": "BLI",
+												"controlId": "VA_VAIMAGEBUTTONNN_121639"
 											}
 										],
 										"executionType": 7,
@@ -530,8 +455,15 @@
 								"imageId": "fa fa-search",
 								"include": 4095,
 								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_BUSCARBRG_42669"
+									},
+									"labelId": "LBL_CNTAS_BUSCARBRG_42669",
+									"moduleId": "CNTAS"
+								},
 								"maxRecords": null,
-								"name": "VA_VAIMAGEBUTTONNN_526195",
+								"name": "VA_VAIMAGEBUTTONNN_121639",
 								"options": 0,
 								"order": 2,
 								"queryModule": null,
@@ -545,7 +477,7 @@
 									"userControlId": "ImageButton"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_VAIMAGEBUTTONNN_526195",
+								"visualAttributeId": "VA_VAIMAGEBUTTONNN_121639",
 								"width": null,
 								"widthComposite": "D"
 							}
@@ -554,7 +486,7 @@
 				],
 				"id": {
 					"version": "1.0.0",
-					"viewId": "VW_DEPOSITOEB_195"
+					"viewId": "VW_TRANSACCOS_639"
 				},
 				"metadataVersion": "7.2.0.2020",
 				"modules": [
@@ -562,7 +494,7 @@
 						"moduleId": "CNTAS"
 					}
 				],
-				"name": "View of formDeposito"
+				"name": "View of FormTransaccionesADBS"
 			}
 		}
 	]

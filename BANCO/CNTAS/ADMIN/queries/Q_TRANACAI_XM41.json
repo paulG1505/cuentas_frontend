@@ -22,102 +22,25 @@
 	"customizationLayerDescription": "ECU",
 	"hasEvents": true,
 	"id": {
-		"queryId": "Q_CLIENUNN_VJ99",
+		"queryId": "Q_TRANACAI_XM41",
 		"version": "1.0.0"
 	},
 	"isAutomatic": false,
 	"isImported": false,
-	"mainEntityId": "EN_CLIENTEAU_514",
+	"mainEntityId": "EN_TRANSACIC_229",
 	"mainEntityModule": "CNTAS",
 	"mainEntityName": {
-		"$ref": "../../../CNTAS/relations/componentKeys.json#/Entities/EN_CLIENTEAU_514/name"
+		"$ref": "../../../CNTAS/relations/componentKeys.json#/Entities/EN_TRANSACIC_229/name"
 	},
 	"mainEntityVersion": "1.0.0",
 	"name": {
-		"$ref": "../../../CNTAS/relations/componentKeys.json#/ADMIN/Queries/Q_CLIENUNN_VJ99/name"
+		"$ref": "../../../CNTAS/relations/componentKeys.json#/ADMIN/Queries/Q_TRANACAI_XM41/name"
 	},
 	"queryMembers": [
 		{
-			"alias": "tipoCuenta",
+			"alias": "tipoTransaccion",
 			"attribute": {
-				"$ref": "../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT80_TIPOCUEE514"
-			},
-			"customizationLayer": null,
-			"customizationLayerDescription": null,
-			"defaultValue": null,
-			"defaultValueDataType": null,
-			"function": null,
-			"operator": null,
-			"order": 6,
-			"orderBy": 0,
-			"orderByDirection": "A",
-			"queryMemberId": "QM_CLIEN9JNUV929_06",
-			"select": true,
-			"selectStr": "T",
-			"whereStr": "F"
-		},
-		{
-			"alias": "cliente",
-			"attribute": {
-				"$ref": "../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT89_CLIENTEE514"
-			},
-			"customizationLayer": null,
-			"customizationLayerDescription": null,
-			"defaultValue": null,
-			"defaultValueDataType": null,
-			"function": null,
-			"operator": null,
-			"order": "2000",
-			"orderBy": 0,
-			"orderByDirection": "A",
-			"queryMemberId": "QM_CLIEN9V999864_02",
-			"select": true,
-			"selectStr": "T",
-			"where": false,
-			"whereStr": "F"
-		},
-		{
-			"alias": "saldo",
-			"attribute": {
-				"$ref": "../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT10_SALDOPTH514"
-			},
-			"customizationLayer": null,
-			"customizationLayerDescription": null,
-			"defaultValue": null,
-			"defaultValueDataType": null,
-			"function": null,
-			"operator": null,
-			"order": 2,
-			"orderBy": 0,
-			"orderByDirection": "A",
-			"queryMemberId": "QM_CLIENJV99N836_02",
-			"select": true,
-			"selectStr": "T",
-			"whereStr": "F"
-		},
-		{
-			"alias": "apellido",
-			"attribute": {
-				"$ref": "../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT90_APELLIOO514"
-			},
-			"customizationLayer": null,
-			"customizationLayerDescription": null,
-			"defaultValue": null,
-			"defaultValueDataType": null,
-			"function": null,
-			"operator": null,
-			"order": 5,
-			"orderBy": 0,
-			"orderByDirection": "A",
-			"queryMemberId": "QM_CLIENNN9NU437_05",
-			"select": true,
-			"selectStr": "T",
-			"whereStr": "F"
-		},
-		{
-			"alias": "nombre",
-			"attribute": {
-				"$ref": "../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT96_NOMBRETT514"
+				"$ref": "../../../CNTAS/entities/EN_TRANSACIC_229.json#/attributes/AT63_TIPOTRAC229"
 			},
 			"customizationLayer": null,
 			"customizationLayerDescription": null,
@@ -128,15 +51,34 @@
 			"order": 4,
 			"orderBy": 0,
 			"orderByDirection": "A",
-			"queryMemberId": "QM_CLIENNNN99953_04",
+			"queryMemberId": "QM_TRANA1MI1C977_04",
 			"select": true,
 			"selectStr": "T",
 			"whereStr": "F"
 		},
 		{
-			"alias": "cedula",
+			"alias": "tipoCuenta",
 			"attribute": {
-				"$ref": "../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT81_CEDULAZR514"
+				"$ref": "../../../CNTAS/entities/EN_TRANSACIC_229.json#/attributes/AT14_TIPOCUTT229"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_TRANA4XCXI546_05",
+			"select": true,
+			"selectStr": "T",
+			"whereStr": "F"
+		},
+		{
+			"alias": "numeroCuenta",
+			"attribute": {
+				"$ref": "../../../CNTAS/entities/EN_TRANSACIC_229.json#/attributes/AT12_NUMERONU229"
 			},
 			"customizationLayer": null,
 			"customizationLayerDescription": null,
@@ -147,15 +89,34 @@
 			"order": 3,
 			"orderBy": 0,
 			"orderByDirection": "A",
-			"queryMemberId": "QM_CLIENU99U9311_03",
+			"queryMemberId": "QM_TRANACIX14678_03",
 			"select": true,
 			"selectStr": "T",
 			"whereStr": "F"
 		},
 		{
-			"alias": "banco",
+			"alias": "fechaTransaccion",
 			"attribute": {
-				"$ref": "../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT45_BANCOGAV514"
+				"$ref": "../../../CNTAS/entities/EN_TRANSACIC_229.json#/attributes/AT11_FECHATOS229"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_TRANAXI1IM606_02",
+			"select": true,
+			"selectStr": "T",
+			"whereStr": "F"
+		},
+		{
+			"alias": "idTransaccion",
+			"attribute": {
+				"$ref": "../../../CNTAS/entities/EN_TRANSACIC_229.json#/attributes/AT11_IDTRANOO229"
 			},
 			"customizationLayer": null,
 			"customizationLayerDescription": null,
@@ -166,7 +127,7 @@
 			"order": 1,
 			"orderBy": 0,
 			"orderByDirection": "A",
-			"queryMemberId": "QM_CLIENVVNUV974_01",
+			"queryMemberId": "QM_TRANAXIXMC343_01",
 			"select": true,
 			"selectStr": "T",
 			"whereStr": "F"

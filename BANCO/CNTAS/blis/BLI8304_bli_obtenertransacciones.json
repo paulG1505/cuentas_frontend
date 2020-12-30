@@ -20,7 +20,7 @@
 			"format": "",
 			"name": "@i_operacion",
 			"type": "CONSTANT",
-			"value": "Q"
+			"value": "S"
 		},
 		{
 			"attributeId": "",
@@ -45,74 +45,66 @@
 			"value": ""
 		}
 	],
-	"name": "BLI_getClienteCuenta",
+	"name": "BLI_obtenerTransacciones",
 	"outputEntity": [
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI3128_bli_getclientecuenta",
-	"patternName": "BLI_getClienteCuenta",
+	"patternId": "BLI8304_bli_obtenertransacciones",
+	"patternName": "BLI_obtenerTransacciones",
 	"patternType": "Bli",
 	"queries": [
 		{
-			"_idQuery": "8cc4c7a7-32cb-4527-826a-c821aa0917b2",
+			"_idQuery": "b4988545-044d-452a-81fa-c621d6dde139",
 			"isMapReturn": true,
 			"isReturn": true,
 			"isSingleResult": false,
 			"numberQuery": 1,
-			"queryName": "SELECT ca_banco,\r\n\t\t\t       ca_saldo,\r\n\t\t\t       cl_cedula,\r\n\t\t\t       cl_nombre,\r\n\t\t\t       cl_apellido,\r\n\t\t\t       \u0027A\u0027 AS tipo_cuenta\r\n\t\t \tFROM"
+			"queryName": "SELECT"
 		}
 	],
 	"resultSets": [
 		{
-			"_idQuery": "8cc4c7a7-32cb-4527-826a-c821aa0917b2",
+			"_idQuery": "b4988545-044d-452a-81fa-c621d6dde139",
 			"columns": [
 				{
-					"attributeId": "AT45_BANCOGAV514",
-					"entityId": "EN_CLIENTEAU_514",
+					"attributeId": "AT11_IDTRANOO229",
+					"entityId": "EN_TRANSACIC_229",
 					"format": "",
-					"name": "banco",
+					"name": "id",
 					"position": 1,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT10_SALDOPTH514",
-					"entityId": "EN_CLIENTEAU_514",
+					"attributeId": "AT11_FECHATOS229",
+					"entityId": "EN_TRANSACIC_229",
 					"format": "",
-					"name": "saldo",
+					"name": "fecha",
 					"position": 2,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT81_CEDULAZR514",
-					"entityId": "EN_CLIENTEAU_514",
+					"attributeId": "AT12_NUMERONU229",
+					"entityId": "EN_TRANSACIC_229",
 					"format": "",
-					"name": "cedula",
+					"name": "cuenta",
 					"position": 3,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT96_NOMBRETT514",
-					"entityId": "EN_CLIENTEAU_514",
+					"attributeId": "AT63_TIPOTRAC229",
+					"entityId": "EN_TRANSACIC_229",
 					"format": "",
-					"name": "nombre",
+					"name": "transaccion",
 					"position": 4,
 					"type": "ATTRIBUTE"
 				},
 				{
-					"attributeId": "AT90_APELLIOO514",
-					"entityId": "EN_CLIENTEAU_514",
+					"attributeId": "AT14_TIPOCUTT229",
+					"entityId": "EN_TRANSACIC_229",
 					"format": "",
-					"name": "apellido",
+					"name": "tipoCuenta",
 					"position": 5,
-					"type": "ATTRIBUTE"
-				},
-				{
-					"attributeId": "AT80_TIPOCUEE514",
-					"entityId": "EN_CLIENTEAU_514",
-					"format": "",
-					"name": "tipocuenta",
-					"position": 6,
 					"type": "ATTRIBUTE"
 				}
 			],
@@ -122,12 +114,12 @@
 	],
 	"returnEntity": [
 		{
-			"entityId": "EN_CLIENTEAU_514",
+			"entityId": "EN_TRANSACIC_229",
 			"module": {
 				"moduleId": "CNTAS",
 				"moduleName": "Cuentas"
 			},
-			"name": "ClienteCuenta"
+			"name": "TransaccionADBS"
 		}
 	],
 	"serverName": "CENTRAL",
