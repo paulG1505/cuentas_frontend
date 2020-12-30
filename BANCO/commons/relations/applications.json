@@ -5,7 +5,7 @@
 		"forms": {
 			"CNTAS": [
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "CNTAS",
 					"name": "formDeposito",
 					"subModuleId": "ADMIN",
@@ -13,7 +13,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "CNTAS",
 					"name": "CreateAccount",
 					"subModuleId": "ADMIN",
@@ -21,11 +21,19 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "CNTAS",
 					"name": "FormCliente",
 					"subModuleId": "ADMIN",
 					"taskId": "T_CNTASJJPLZAZE_834",
+					"type": "Simple form"
+				},
+				{
+					"generated": 2,
+					"moduleId": "CNTAS",
+					"name": "formDepositarADBS",
+					"subModuleId": "ADMIN",
+					"taskId": "T_CNTASZKCYNMZR_815",
 					"type": "Simple form"
 				}
 			]

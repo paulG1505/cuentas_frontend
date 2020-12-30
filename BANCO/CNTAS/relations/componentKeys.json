@@ -14,6 +14,9 @@
 			},
 			"T_CNTASJJPLZAZE_834": {
 				"name": "FormCliente"
+			},
+			"T_CNTASZKCYNMZR_815": {
+				"name": "formDepositarADBS"
 			}
 		},
 		"Queries": {
@@ -42,6 +45,9 @@
 		},
 		"EN_CUENTAEUK_224": {
 			"name": "Cuenta"
+		},
+		"EN_DEPOSITOO_413": {
+			"name": "Deposito"
 		},
 		"EN_FILTROCNI_431": {
 			"name": "FiltroCliente"

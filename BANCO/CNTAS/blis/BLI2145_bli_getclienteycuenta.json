@@ -45,13 +45,13 @@
 			"value": ""
 		}
 	],
-	"name": "BLI_getClienteCuenta",
+	"name": "BLI_getClienteyCuenta",
 	"outputEntity": [
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI3128_bli_getclientecuenta",
-	"patternName": "BLI_getClienteCuenta",
+	"patternId": "BLI2145_bli_getclienteycuenta",
+	"patternName": "BLI_getClienteyCuenta",
 	"patternType": "Bli",
 	"queries": [
 		{
@@ -76,11 +76,19 @@
 					"type": "ATTRIBUTE"
 				},
 				{
+					"attributeId": "AT89_CLIENTEE514",
+					"entityId": "EN_CLIENTEAU_514",
+					"format": "",
+					"name": "cliente",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
 					"attributeId": "AT10_SALDOPTH514",
 					"entityId": "EN_CLIENTEAU_514",
 					"format": "",
 					"name": "saldo",
-					"position": 2,
+					"position": 3,
 					"type": "ATTRIBUTE"
 				},
 				{
@@ -88,7 +96,7 @@
 					"entityId": "EN_CLIENTEAU_514",
 					"format": "",
 					"name": "cedula",
-					"position": 3,
+					"position": 4,
 					"type": "ATTRIBUTE"
 				},
 				{
@@ -96,7 +104,7 @@
 					"entityId": "EN_CLIENTEAU_514",
 					"format": "",
 					"name": "nombre",
-					"position": 4,
+					"position": 5,
 					"type": "ATTRIBUTE"
 				},
 				{
@@ -104,7 +112,7 @@
 					"entityId": "EN_CLIENTEAU_514",
 					"format": "",
 					"name": "apellido",
-					"position": 5,
+					"position": 6,
 					"type": "ATTRIBUTE"
 				},
 				{
@@ -112,7 +120,7 @@
 					"entityId": "EN_CLIENTEAU_514",
 					"format": "",
 					"name": "tipocuenta",
-					"position": 6,
+					"position": 7,
 					"type": "ATTRIBUTE"
 				}
 			],

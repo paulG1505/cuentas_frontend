@@ -18,6 +18,10 @@
 			"labels": [
 			]
 		},
+		"EN_DEPOSITOO_413": {
+			"labels": [
+			]
+		},
 		"EN_FILTROCNI_431": {
 			"labels": [
 			]
@@ -30,7 +34,7 @@
 	"Forms": {
 		"T_CNTASDGXVJPQN_908": {
 			"blis": [
-				"BLI3128_bli_getclientecuenta"
+				"BLI2145_bli_getclienteycuenta"
 			],
 			"entities": {
 				"EN_CLIENTEAU_514": [
@@ -38,6 +42,7 @@
 					"AT45_BANCOGAV514",
 					"AT80_TIPOCUEE514",
 					"AT81_CEDULAZR514",
+					"AT89_CLIENTEE514",
 					"AT90_APELLIOO514",
 					"AT96_NOMBRETT514"
 				],
@@ -57,6 +62,7 @@
 			"queries": {
 				"Q_CLIENUNN_VJ99": [
 					"QM_CLIEN9JNUV929_06",
+					"QM_CLIEN9V999864_02",
 					"QM_CLIENJV99N836_02",
 					"QM_CLIENNN9NU437_05",
 					"QM_CLIENNNN99953_04",
@@ -162,6 +168,35 @@
 					"QM_CLIENU22YU450_03",
 					"QM_CLIENU333T458_04"
 				]
+			},
+			"subForms": [
+			]
+		},
+		"T_CNTASZKCYNMZR_815": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CLIENTEAU_514": [
+					"AT45_BANCOGAV514",
+					"AT55_MONTORIM514",
+					"AT80_TIPOCUEE514",
+					"AT89_CLIENTEE514"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_CLIENTETD_76249",
+				"LBL_CNTAS_CUENTAVRN_12484",
+				"LBL_CNTAS_DEPOSITAA_41746",
+				"LBL_CNTAS_MONTOQCYX_65686",
+				"LBL_CNTAS_TIPOCUEAA_92688"
+			],
+			"queries": {
 			},
 			"subForms": [
 			]

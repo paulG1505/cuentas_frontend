@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CLIENTEAU_514",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}

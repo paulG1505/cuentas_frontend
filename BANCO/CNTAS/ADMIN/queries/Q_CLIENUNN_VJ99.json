@@ -57,6 +57,26 @@
 			"whereStr": "F"
 		},
 		{
+			"alias": "cliente",
+			"attribute": {
+				"$ref": "../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT89_CLIENTEE514"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": "2000",
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_CLIEN9V999864_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
 			"alias": "saldo",
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_CLIENTEAU_514.json#/attributes/AT10_SALDOPTH514"

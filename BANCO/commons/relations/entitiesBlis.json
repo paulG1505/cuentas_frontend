@@ -19,8 +19,8 @@
 					}
 				]
 			},
-			"idBli": "BLI3128_bli_getclientecuenta",
-			"nameBli": "BLI_getClienteCuenta"
+			"idBli": "BLI2145_bli_getclienteycuenta",
+			"nameBli": "BLI_getClienteyCuenta"
 		},
 		{
 			"entities": {
