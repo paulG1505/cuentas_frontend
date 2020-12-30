@@ -65,17 +65,6 @@
 			"name": "@i_saldo",
 			"type": "ATTRIBUTE",
 			"value": ""
-		},
-		{
-			"attributeId": "AT85_NUMEROCT245",
-			"bddType": "int",
-			"dataType": "INT",
-			"direction": "in",
-			"entityId": "EN_BUSQUEDNT_245",
-			"format": "",
-			"name": "@i_numero_cuenta_destino",
-			"type": "ATTRIBUTE",
-			"value": ""
 		}
 	],
 	"name": "BLI_busqueda_cuenta_destino",
@@ -122,6 +111,14 @@
 					"format": "",
 					"name": "{4}",
 					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT74_TIPOCUNE245",
+					"entityId": "EN_BUSQUEDNT_245",
+					"format": "",
+					"name": "tipo_cuenta",
+					"position": 7,
 					"type": "ATTRIBUTE"
 				}
 			],

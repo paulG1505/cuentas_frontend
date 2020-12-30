@@ -7,5 +7,5 @@ task.executeCommand.VA_VAIMAGEBUTTONNN_760729 = function(  entities, executeComm
 
     executeCommandEventArgs.commons.execServer = true;
     //executeCommandEventArgs.commons.serverParameters.BusquedaCliente = true;
-
+    
 };

@@ -48,6 +48,23 @@
 			"entities": {
 				"inputEntity": [
 					{
+						"entityId": "EN_TRANSFENC_281",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI5893_bli_transferencia",
+			"nameBli": "BLI_transferencia"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
 						"entityId": "EN_FILTROCNI_431",
 						"moduleId": "CNTAS",
 						"related": false

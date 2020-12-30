@@ -55,17 +55,17 @@
 	"patternType": "Bli",
 	"queries": [
 		{
-			"_idQuery": "151a2750-29fb-4a4f-bd65-08d6dd5036b4",
+			"_idQuery": "2a69df40-2bde-42e2-9566-8c552429ab8e",
 			"isMapReturn": true,
 			"isReturn": true,
 			"isSingleResult": true,
-			"numberQuery": 4,
+			"numberQuery": 3,
 			"queryName": "SELECT"
 		}
 	],
 	"resultSets": [
 		{
-			"_idQuery": "151a2750-29fb-4a4f-bd65-08d6dd5036b4",
+			"_idQuery": "2a69df40-2bde-42e2-9566-8c552429ab8e",
 			"columns": [
 				{
 					"attributeId": "AT82_NUMEROCA539",
@@ -120,7 +120,7 @@
 					"entityId": "EN_BUSQUEDAC_539",
 					"format": "",
 					"name": "tipo_cuenta",
-					"position": 9,
+					"position": 7,
 					"type": "ATTRIBUTE"
 				}
 			],

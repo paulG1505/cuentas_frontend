@@ -99,6 +99,16 @@
 				"dataType": "int",
 				"direction": "in",
 				"name": "@i_numero_cuenta_destino"
+			},
+			{
+				"dataType": "float",
+				"direction": "in",
+				"name": "@i_valor"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_tipo_cuenta_destino"
 			}
 		],
 		"queries": [

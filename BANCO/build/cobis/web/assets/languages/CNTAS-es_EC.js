@@ -7,6 +7,8 @@
 		"LBL_CNTAS_CLIENTETD_76249": "Cliente",
 		"LBL_CNTAS_CODIGOCET_21378": "Codigo Cliente",
 		"LBL_CNTAS_CREARCUAA_86369": "Crear Cuenta",
+		"LBL_CNTAS_CUENTADOT_79326": "Cuenta Destino",
+		"LBL_CNTAS_CUENTAOIG_73665": "Cuenta Origen",
 		"LBL_CNTAS_GUARDARUL_62499": "Guardar",
 		"LBL_CNTAS_NOMBRECLE_58618": "Nombre Cliente",
 		"LBL_CNTAS_NUMEROCAT_57046": "Numero de Cuenta",
@@ -19,6 +21,12 @@
 		"LBL_CNTAS_TIPOCUEAA_92688": "Tipo de Cuenta",
 		"LBL_CNTAS_TIPOCUENT_29510": "Tipo Cuenta",
 		"LBL_CNTAS_TIPOCUENT_58975": "Tipo de Cuenta",
+		"LBL_CNTAS_TIPODESOT_62957": "Tipo Destino",
+		"LBL_CNTAS_TIPOORING_39891": "Tipo Origen",
+		"LBL_CNTAS_TPOCUENTT_23413": "Tpo de Cuenta",
+		"LBL_CNTAS_TRANSFEIC_97652": "Transferencia",
+		"LBL_CNTAS_TRANSFERI_63983": "Transferir",
+		"LBL_CNTAS_VALORATIR_80202": "Valor a transferir",
 		"MSG_CNTAS_RANGOSANO_16064": "Rango de saldo no permitido",
 		"MSG_CNTAS_VALORFUGA_34899": "Valor fuera de rango"
 	}

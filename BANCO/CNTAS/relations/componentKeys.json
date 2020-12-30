@@ -60,6 +60,9 @@
 		},
 		"EN_FILTROCUA_619": {
 			"name": "FiltroCuenta"
+		},
+		"EN_TRANSFENC_281": {
+			"name": "Transferencia"
 		}
 	}
 }

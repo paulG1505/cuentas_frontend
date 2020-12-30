@@ -11,6 +11,12 @@
 			"isContextEntity": null,
 			"moduleId": "CNTAS",
 			"related": false
+		},
+		{
+			"entityId": "EN_TRANSFENC_281",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
 		}
 	],
 	"queries": [
